@@ -1,4 +1,4 @@
-### Hey there! 👋
+### Hey there! Vinayak aka Vinzlercodes👋
 <!-- - 🔭 I’m currently working on ... -->
 - 🌱 I’m currently learning Concepts of Software Developement in Data Science. 
 - 👯 I’m looking to collaborate on projects in both Software Developement and Data Analytics
