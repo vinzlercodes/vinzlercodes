@@ -4,6 +4,6 @@
 - 👯 I’m looking to collaborate on projects in both Software Developement and Data Analytics
 <!-- - 🤔 I’m looking for help with ... -->
 - 💬 Ask me about anything related to technology 
-- 📫 How to reach me: Linkedin, Email
-- 😄 Pronouns: He/His?Him
-- ⚡ Fun fact: I love Gaming and all stuff Food
+- 📫 How to reach me: [Linkedin](www.linkedin.com/in/vinayak-sengupta-022a86bb)
+- 😄 Pronouns: He/His/Him
+- ⚡ Fun fact: I love Gaming and all stuff related to Food
