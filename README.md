@@ -11,3 +11,5 @@
 
 - :man_technologist: Languages and Tools: <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png" height="40"> &nbsp; <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="40"> &nbsp; <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/atom/atom.png" height="40"> &nbsp; <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/IntelliJ_IDEA_Logo.svg/1024px-IntelliJ_IDEA_Logo.svg.png" height="40"> &nbsp; <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/PyCharm_Logo.svg/1024px-PyCharm_Logo.svg.png" height="40"> &nbsp; <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png" height="40">
 - ⚡ Fun fact: I love Gaming and all stuff related to Food
+
+![Vinzler's github stats](https://github-readme-stats-orcin-one.vercel.app/api?username=vinzlercodes&count_private=true)
