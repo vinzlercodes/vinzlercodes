@@ -31,4 +31,6 @@ Lets! Connect:  &nbsp;  [<img height="30" src="https://cdn.jsdelivr.net/npm/simp
 
 ## My Blog posts
 <!-- BLOG-POST-LIST:START -->
+- [Customer Segmentation, Identifying the Profit Among the Loose Ends.](https://medium.com/swlh/customer-segmentation-identifying-the-profit-among-the-loose-ends-6fe4d6279873?source=rss-315151b8e67d------2)
+- [The Last 40 Years of Gaming Industry, Unlocked.](https://medium.com/swlh/the-last-40-years-of-gaming-industry-unlocked-baf4699ad8ba?source=rss-315151b8e67d------2)
 <!-- BLOG-POST-LIST:END -->
