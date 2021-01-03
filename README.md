@@ -5,7 +5,7 @@
 
 👯 I’m looking to collaborate on projects in both Software Development and Data Analytics.
 
-📄 Know about my experiences: [My Resume](https://drive.google.com/file/d/1UikXTzqpW03zs7XXWHEea_4OVknf3MDx/view?usp=sharing)
+📄 Know about my experiences: &nbsp; [My Resume](https://drive.google.com/file/d/1UikXTzqpW03zs7XXWHEea_4OVknf3MDx/view?usp=sharing)
 
 Lets! Connect:  &nbsp;  [<img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/instagram.svg" />](https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=user_email&utm_content=i603x5) &nbsp;  &nbsp;   [<img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/linkedin.svg" />](https://www.linkedin.com/in/vinayak-sengupta-022a86bb) &nbsp; &nbsp;  [<img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/gmail.svg" />](https://www.vinayak.sengupta@gmail.com)
 
