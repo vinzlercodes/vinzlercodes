@@ -25,3 +25,10 @@ Lets! Connect:  &nbsp;  [<img height="30" src="https://cdn.jsdelivr.net/npm/simp
 ## My Github Activities :shopping_cart:
 
 <!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+---
+
+# Blog posts
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
