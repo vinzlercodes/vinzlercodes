@@ -1,6 +1,6 @@
 ## <h1 align="center">Hi 👋, I'm Vinayak Sengupta</h1>
 
-## I am a Student, Developer and Learner!
+## I am a Student :man_student:, Developer :technologist: and Learner :raising_hand_man:
 🌱 I’m currently learning Concepts of Software Developement in Data Science.
 
 👯 I’m looking to collaborate on projects in both Software Development and Data Analytics.
@@ -29,7 +29,7 @@ Lets! Connect:  &nbsp;  [<img height="30" src="https://cdn.jsdelivr.net/npm/simp
 
 ---
 
-## My Blog posts
+## My Blog posts :writing_hand:
 <!-- BLOG-POST-LIST:START -->
 - [Customer Segmentation, Identifying the Profit Among the Loose Ends.](https://medium.com/swlh/customer-segmentation-identifying-the-profit-among-the-loose-ends-6fe4d6279873?source=rss-315151b8e67d------2)
 - [The Last 40 Years of Gaming Industry, Unlocked.](https://medium.com/swlh/the-last-40-years-of-gaming-industry-unlocked-baf4699ad8ba?source=rss-315151b8e67d------2)
