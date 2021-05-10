@@ -24,7 +24,7 @@ Lets! Connect:  &nbsp;  [<img height="30" src="https://cdn.jsdelivr.net/npm/simp
 ## My Github Activities :shopping_cart:
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#1](https://github.com/jamesgeorge007/jamesgeorge007/issues/1) in [jamesgeorge007/jamesgeorge007](https://github.com/jamesgeorge007/jamesgeorge007)
+1. ❗️ Opened issue [#58](https://github.com/jamesgeorge007/github-activity-readme/issues/58) in [jamesgeorge007/github-activity-readme](https://github.com/jamesgeorge007/github-activity-readme)
 <!--END_SECTION:activity-->
 
 ---
