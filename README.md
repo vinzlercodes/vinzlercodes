@@ -24,7 +24,7 @@ Lets! Connect:  &nbsp;  [<img height="30" src="https://cdn.jsdelivr.net/npm/simp
 ## My Github Activities :shopping_cart:
 
 <!--START_SECTION:activity-->
-1. 💪 Opened PR [#2866](https://github.com/education/GitHubGraduation-2021/pull/2866) in [education/GitHubGraduation-2021](https://github.com/education/GitHubGraduation-2021)
+1. 🗣 Commented on [#2866](https://github.com/education/GitHubGraduation-2021/issues/2866) in [education/GitHubGraduation-2021](https://github.com/education/GitHubGraduation-2021)
 <!--END_SECTION:activity-->
 
 ---
