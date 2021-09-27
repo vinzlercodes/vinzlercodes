@@ -15,17 +15,17 @@ Lets! Connect:  &nbsp;  [<img height="30" src="https://cdn.jsdelivr.net/npm/simp
  
  ---
 
-## My Github Statistics :chart:
+//## My Github Statistics :chart:
 
-![Vinzler's github stats](https://github-readme-stats-orcin-one.vercel.app/api?username=vinzlercodes&count_private=true&show_icons=true&hide_border=true) &nbsp; &nbsp; [![Top Languages](https://github-readme-stats-orcin-one.vercel.app/api/top-langs/?username=vinzlercodes&hide_border=true)](https://github.com/vinzlercodes/github-readme-stats)
+//![Vinzler's github stats](https://github-readme-stats-orcin-one.vercel.app/api?username=vinzlercodes&count_private=true&show_icons=true&hide_border=true) &nbsp; &nbsp; [![Top //Languages](https://github-readme-stats-orcin-one.vercel.app/api/top-langs/?username=vinzlercodes&hide_border=true)](https://github.com/vinzlercodes/github-readme-stats)
 
 ---
 
-## My Github Activities :shopping_cart:
+//## My Github Activities :shopping_cart:
 
-<!--START_SECTION:activity-->
-1. 🎉 Merged PR [#1](https://github.com/vinzlercodes/DSCI_602/pull/1) in [vinzlercodes/DSCI_602](https://github.com/vinzlercodes/DSCI_602)
-<!--END_SECTION:activity-->
+//<!--START_SECTION:activity-->
+//1. 🎉 Merged PR [#1](https://github.com/vinzlercodes/DSCI_602/pull/1) in [vinzlercodes/DSCI_602](https://github.com/vinzlercodes/DSCI_602)
+//<!--END_SECTION:activity-->
 
 ---
 
