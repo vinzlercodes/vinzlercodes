@@ -1,7 +1,7 @@
 ## <h1 align="center">Hi 👋, I'm Vinayak Sengupta</h1>
 
 ## I am a Student :man_student:, Developer :technologist: and Learner :raising_hand_man:
-🌱 I’m currently learning Concepts of Software Developement in Data Science.
+🌱 I’m currently exploring solutions and insights using Data.
 
 👯 I’m looking to collaborate on projects in both Software Development and Data Analytics.
 
