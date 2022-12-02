@@ -3,7 +3,7 @@
 ## I am a Developer :technologist: and Learner :raising_hand_man:
 🌱 I’m currently exploring solutions and insights using data.
 
-📄 Know about my experiences: &nbsp; [My Resume](https://drive.google.com/file/d/1jYBwbQBNdjSiGqy8RnKqvPcwIauBattV/view?usp=sharing)
+📄 Know about my experiences: &nbsp; [My Resume](https://docs.google.com/document/d/1hPrFbivRyCxyTQB-uSJxXvVQrBjjdhoF/edit?usp=share_link&ouid=112209144461375620721&rtpof=true&sd=true)
 
 Lets! Connect:  &nbsp;  [<img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/instagram.svg" />](https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=user_email&utm_content=i603x5) &nbsp;  &nbsp;   [<img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/linkedin.svg" />](https://www.linkedin.com/in/vinayak-sengupta-022a86bb) &nbsp; &nbsp;  [<img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/gmail.svg" />](https://www.vinayak.sengupta@gmail.com)
 
