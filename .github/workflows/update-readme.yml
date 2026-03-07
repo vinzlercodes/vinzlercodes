@@ -1,18 +1,27 @@
-name: GitHub - Activity - Readme
+name: GitHub activity in README
 
 on:
   schedule:
-    - cron: '*/30 * * * *'
+    - cron: '0 */6 * * *'   # every 6 hours is plenty
   workflow_dispatch:
 
+permissions:
+  contents: write           # needed to update README.md
+
 jobs:
-  build:
+  update-readme:
+    name: Update activity section in README
     runs-on: ubuntu-latest
-    name: Update this repo's README with recent activity
+    concurrency:
+      group: github-activity
+      cancel-in-progress: true
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: jamesgeorge007/github-activity-readme@v0.3.6
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Update recent activity
+        uses: jamesgeorge007/github-activity-readme@v0.4.6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
