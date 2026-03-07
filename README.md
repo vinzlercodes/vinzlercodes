@@ -36,8 +36,10 @@ I build **LLM + ML systems that actually ship** – from fine-tune-and-serve pla
 - **LLM platforms & agents**
   - Fine-tune and serve open-source LLMs (Axolotl + QLoRA) behind **vLLM** for enterprise agent use cases.
   - Design guardrailed **RAG / GraphRAG** systems with content safety (OpenAI Moderation, NeMo Guardrails) and retrieval metrics baked in.
+ 
 - **ML systems & explainability**
   - Ship **model-agnostic attribution and PDP** pipelines using **DuckDB + Arrow**, aligned with LightGBM + SHAP outputs for production dashboards.
+ 
 - **Data & infra**
   - Build and harden **FastAPI** services, K8s reconciliation loops, and data pipelines in **SparkSQL**, PostgreSQL, and warehouses.
 
