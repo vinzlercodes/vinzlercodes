@@ -1,15 +1,28 @@
-name: Latest blog post workflow
+name: Latest blog posts
+
 on:
-  schedule: # Run workflow automatically
-    - cron: '0 * * * *' # Runs every hour, on the hour
-  workflow_dispatch: # Run workflow manually (without waiting for the cron to be called), through the Github Actions Workflow page directly
-  
+  schedule:          # run automatically
+    - cron: '0 6 * * *'   # once a day at 06:00 UTC
+  workflow_dispatch: # allow manual runs from the Actions tab
+
+permissions:
+  contents: write    # required to commit README changes
+
 jobs:
   update-readme-with-blog:
-    name: Update this repo's README with latest blog posts
+    name: Update README with latest Medium posts
     runs-on: ubuntu-latest
+    concurrency:
+      group: blog-posts
+      cancel-in-progress: true
+
     steps:
-      - uses: actions/checkout@v2
-      - uses: gautamkrishnar/blog-post-workflow@master
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Pull in Medium posts
+        uses: gautamkrishnar/blog-post-workflow@v1
         with:
           feed_list: "https://medium.com/feed/@vinayak.sengupta"
+          max_post_count: 5
+          commit_message: "chore: update README with latest Medium posts"
