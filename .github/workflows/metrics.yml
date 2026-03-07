@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write           # needed to commit the generated SVG
+  contents: write           # needed to commit github-metrics.svg
 
 jobs:
   github-metrics:
@@ -19,15 +19,12 @@ jobs:
       - name: Generate metrics image
         uses: lowlighter/metrics@latest
         with:
-          # Create a classic metrics card for your GitHub user
           token: ${{ secrets.METRICS_TOKEN }}
           user: vinzlercodes
           template: classic
           filename: github-metrics.svg
           base: header, activity, community, repositories, metadata
           config_timezone: America/Los_Angeles
-
-          # Turn on language stats (kept tight for visual cleanliness)
           plugin_languages: yes
           plugin_languages_details: percentage
           plugin_languages_limit: 6
