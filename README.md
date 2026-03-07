@@ -123,7 +123,9 @@ Some older but representative public work:
 ## 🗣 Talks & community
 
 - Authored the core problem statement & evaluation metrics for the **UC Berkeley AI Summit 2023 – Data Science Hackathon**.
+  
 - Represented Aible at **Ai4 2023**, **Google Next 2024**, and **AWS Summit 2024**, running technical demos and stakeholder-facing discussions.
+  
 - Enjoy long-form writing on data, ML, and games whenever I can find the time.
 
 
