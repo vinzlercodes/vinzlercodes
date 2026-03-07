@@ -1,20 +1,136 @@
-## <h1 align="center">Hi 👋, I'm Vinayak Sengupta</h1>
+<!--
+  Profile README for github.com/vinzlercodes
+  Focus: LLM systems, applied ML, retrieval, and data platforms.
+-->
 
-## I am a Developer :technologist: and Learner :raising_hand_man:
-🌱 I’m currently exploring solutions and insights using data.
+<div align="center">
 
-📄 Know about my experiences: &nbsp; [My Resume](https://docs.google.com/document/d/1hPrFbivRyCxyTQB-uSJxXvVQrBjjdhoF/edit?usp=share_link&ouid=112209144461375620721&rtpof=true&sd=true)
+# 👋 Hi, I’m Vinayak Sengupta
 
-Lets! Connect:  &nbsp;  [<img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/instagram.svg" />](https://www.instagram.com/invites/contact/?utm_source=ig_contact_invite&utm_medium=user_email&utm_content=i603x5) &nbsp;  &nbsp;   [<img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/linkedin.svg" />](https://www.linkedin.com/in/vinayak-sengupta-022a86bb) &nbsp; &nbsp;  [<img height="30" src="https://cdn.jsdelivr.net/npm/simple-icons@v4/icons/gmail.svg" />](https://www.vinayak.sengupta@gmail.com)
+### Data Scientist & LLM Systems Engineer
 
- :man_technologist: Languages and Tools: <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/java/java.png" height="30"> &nbsp; &nbsp;  <img src="https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png" height="30"> &nbsp; &nbsp;  <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/atom/atom.png" height="30"> &nbsp; <img src="https://user-images.githubusercontent.com/34100245/117599130-3961b180-b117-11eb-8bf4-84b100505706.png" height="30"> &nbsp; &nbsp; <img src="https://user-images.githubusercontent.com/34100245/117599245-6e6e0400-b117-11eb-97a5-3b64700945bc.png" height="30"> &nbsp; &nbsp;  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png" height="25">
+I build **LLM + ML systems that actually ship** – from fine-tune-and-serve platforms and GraphRAG pipelines to model-agnostic explainability and data products.
 
- ⚡ Fun fact: I love Gaming and all stuff related to Food
- 
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Vinayak%20Sengupta-blue?logo=linkedin)](https://www.linkedin.com/in/vinayak-sengupta)
+[![Medium](https://img.shields.io/badge/Medium-@vinayak.sengupta-12100E?logo=medium)](https://medium.com/@vinayak.sengupta)
+[![GitHub](https://img.shields.io/badge/GitHub-vinzlercodes-181717?logo=github)](https://github.com/vinzlercodes)
+[![Email](https://img.shields.io/badge/Email-vinayak.sengupta%40gmail.com-red?logo=gmail)](mailto:vinayak.sengupta@gmail.com)
+[![Resume](https://img.shields.io/badge/Resume-View-darkgreen)](https://docs.google.com/document/d/1DvQz1Q0MTi0pH3q4B4ePjGukJ9QmTXXXXXX) <!-- swap in your actual resume URL -->
+
+</div>
+
 ---
 
-## My Blog posts :writing_hand:
+## 🧠 What I do
+
+- **LLM platforms & agents**
+  - Fine-tune and serve open-source LLMs (Axolotl + QLoRA) behind **vLLM** for enterprise agent use cases.
+  - Design guardrailed **RAG / GraphRAG** systems with content safety (OpenAI Moderation, NeMo Guardrails) and retrieval metrics baked in.
+- **ML systems & explainability**
+  - Ship **model-agnostic attribution and PDP** pipelines using **DuckDB + Arrow**, aligned with LightGBM + SHAP outputs for production dashboards.
+- **Data & infra**
+  - Build and harden **FastAPI** services, K8s reconciliation loops, and data pipelines in **SparkSQL**, PostgreSQL, and warehouses.
+
+I care about **robustness, observability, and measurable impact** – not just getting a Jupyter notebook to “work.”
+
+
+## 💼 Snapshot of recent work
+
+### Aible – Data Scientist (2023–Present)
+
+- **Custom LLM fine-tune & serve platform**
+  - Architected a fault-tolerant fine-tune-and-serve platform (Axolotl + QLoRA + vLLM) for multiple open-source foundation models.
+  - Automated checkpoint detection & recovery, cutting manual setup / monitoring by **~80%** and enabling a Fortune 50 telecom to ship a security metadata classifier on time.
+
+- **Model-agnostic feature attribution & PDP**
+  - Built a single-pass explanation pipeline using model predictions + univariate summaries with **DuckDB** pivoting over **Arrow** data.
+  - Unified global + pairwise explanations across LightGBM and SHAP, and reduced per-feature PDP compute **17×** while keeping curve fidelity (ρ≈0.90).
+
+- **Model reconciliation controller**
+  - Re-architected a fragmented Flask process into a **FastAPI** proxy with an idempotent reconcile loop using DeepDiff + K8s helpers.
+  - Consolidated four manual steps into one API and cut manual recovery effort by **90%**, speeding pod rollouts **3×** and eliminating double-launch incidents.
+
+- **Graph-structured document summarization**
+  - Implemented RAG + GraphRAG over **Neo4j** with embedding clustering, token-based splitting, BM25, MMR, and FlashRank-based re-ranking.
+  - Integrated OpenAI Moderation + NeMo Guardrails and improved retrieval nDCG@k by **25%**, shipping a modular retrieval suite into production.
+
+### Research & writing
+
+- **PPO post-training for Llama text-to-SQL (3B)**
+  - Engineered a PPO pipeline that boosted F1-SQL from **16% → 84%** using ~1k human feedback samples and ≈\$11 of H100 compute, reaching task-bounded parity with an OpenAI o3-series model.
+
+- **Prior ML work**
+  - SATD detection and refactoring recommendation (capstone @ RIT).
+  - Histopathology carcinoma classification using multi-level spatial fusion (CCIS book series, FTNCT 2019).
+  - Long-form writing on Medium (Towards Data Science, The Startup, etc.) on topics from customer segmentation to the last 40 years of gaming.
+
+
+## 🛠 Tech stack
+
+**Languages**  
+`Python` · `SQL` · `Cypher`
+
+**ML / LLM**  
+`PyTorch` · `TensorFlow` · `Keras` · `scikit-learn` · `LightGBM` · `SHAP` · `ONNX`  
+`Axolotl` · `QLoRA` · `vLLM` · `LangChain` · `LlamaIndex` · `NeMo Microservices` · `NeMo Guardrails`  
+`OpenAI` · `Vertex AI`
+
+**Data & storage**  
+`DuckDB` · `PostgreSQL` · `MongoDB` · `Neo4j` · `Chroma` · `PySpark`  
+`AWS` · `GCP`
+
+**Backend / infra**  
+`FastAPI` · `Flask` · `Kubernetes` · `Docker` · `GitHub Actions`
+
+
+## 📌 Selected projects (public repos)
+
+Some older but representative public work:
+
+- **[Gaming-Industry-Analysis](https://github.com/vinzlercodes/Gaming-Industry-Analysis)**  
+  Data analysis of a 40-year gaming dataset – genre/platform trends, sales patterns, and publisher contributions, plus a companion blog post tying it all together.
+
+- **[Prediction-of-Customer-Churn](https://github.com/vinzlercodes/Prediction-of-Customer-Churn)**  
+  ANN-based churn prediction for banking customers, with extensive visualization (ROC, confusion matrix, pie charts, KDE, counter plots).
+
+- **[Disaster-Response-Pipeline-Web-App](https://github.com/vinzlercodes/Disaster-Response-Pipeline-Web-App)**  
+  End-to-end ETL + NLP + ML pipeline that powers a web app for classifying disaster-related messages into multiple categories.
+
+- **[Recommendation-of-Refactoring-Techniques-to-address-Self-Admitted-Technical-Debt](https://github.com/vinzlercodes/Recommendation-of-Refactoring-Techniques-to-address-Self-Admitted-Technical-Debt)**  
+  SATD detection and refactoring recommendation – the public side of your RIT capstone work.
+
+
+## ✍️ Latest writing
+
 <!-- BLOG-POST-LIST:START -->
-- [Customer Segmentation, Identifying the Profit Among the Loose Ends.](https://medium.com/swlh/customer-segmentation-identifying-the-profit-among-the-loose-ends-6fe4d6279873?source=rss-315151b8e67d------2)
-- [The Last 40 Years of Gaming Industry, Unlocked.](https://medium.com/swlh/the-last-40-years-of-gaming-industry-unlocked-baf4699ad8ba?source=rss-315151b8e67d------2)
 <!-- BLOG-POST-LIST:END -->
+
+<sub>This section is auto-updated from my Medium RSS feed.</sub>
+
+
+## 🗣 Talks & community
+
+- Authored the core problem statement & evaluation metrics for the **UC Berkeley AI Summit 2023 – Data Science Hackathon**.
+- Represented Aible at **Ai4 2023**, **Google Next 2024**, and **AWS Summit 2024**, running technical demos and stakeholder-facing discussions.
+- Enjoy long-form writing on data, ML, and games whenever I can find the time.
+
+
+## 📈 GitHub activity & stats
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+<br/>
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=vinzlercodes&show_icons=true&theme=transparent"
+    alt="Vinayak's GitHub stats"
+  />
+</p>
+
+---
+
+<sub>⚡ Fun fact: I will absolutely over-analyze both fragrance notes and video-game industry trends.</sub>
