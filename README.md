@@ -14,10 +14,18 @@ I build **LLM + ML systems that actually ship** – from fine-tune-and-serve pla
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Vinayak%20Sengupta-blue?logo=linkedin)](https://www.linkedin.com/in/vinayak-sengupta)
+
+
 [![Medium](https://img.shields.io/badge/Medium-@vinayak.sengupta-12100E?logo=medium)](https://medium.com/@vinayak.sengupta)
+
+
 [![GitHub](https://img.shields.io/badge/GitHub-vinzlercodes-181717?logo=github)](https://github.com/vinzlercodes)
+
+
 [![Email](https://img.shields.io/badge/Email-vinayak.sengupta%40gmail.com-red?logo=gmail)](mailto:vinayak.sengupta@gmail.com)
-[![Resume](https://img.shields.io/badge/Resume-View-darkgreen)](https://docs.google.com/document/d/1DvQz1Q0MTi0pH3q4B4ePjGukJ9QmTXXXXXX) <!-- swap in your actual resume URL -->
+
+
+[![Resume](https://img.shields.io/badge/Resume-View-darkgreen)](https://docs.google.com/document/d/1DvQz1Q0MTi0pH3q4B4ePjGukJ9QmTXXXXXX)
 
 </div>
 
