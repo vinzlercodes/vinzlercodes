@@ -136,17 +136,16 @@ Some older but representative public work:
 ## 📈 GitHub activity & stats
 
 <!--START_SECTION:activity-->
-![GitHub profile metrics for vinzlercodes](./github-metrics.png)
-<!--END_SECTION:activity-->
-
-<br/>
+## 📈 GitHub activity & stats
 
 <p align="center">
   <img
-    src="https://github-readme-stats.vercel.app/api?username=vinzlercodes&show_icons=true&theme=transparent"
-    alt="Vinayak's GitHub stats"
+    src="./github-metrics.png"
+    alt="GitHub profile metrics for vinzlercodes"
+    width="480"
   />
 </p>
+<!--END_SECTION:activity-->
 
 ---
 
