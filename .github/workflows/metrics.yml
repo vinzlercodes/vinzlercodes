@@ -11,6 +11,7 @@ permissions:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+
     steps:
       - name: Generate metrics image
         uses: lowlighter/metrics@latest
