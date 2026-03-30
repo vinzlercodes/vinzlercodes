@@ -136,9 +136,7 @@ Some older but representative public work:
 ## 📈 GitHub activity & stats
 
 <!--START_SECTION:activity-->
-<p align="center">
-  <img src="./github-metrics.svg" alt="GitHub profile metrics for vinzlercodes" />
-</p>
+![GitHub profile metrics for vinzlercodes](./github-metrics.png)
 <!--END_SECTION:activity-->
 
 <br/>
