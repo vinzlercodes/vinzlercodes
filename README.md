@@ -132,9 +132,6 @@ Some older but representative public work:
   
 - Enjoy long-form writing on data, ML, and games whenever I can find the time.
 
-
-## 📈 GitHub activity & stats
-
 <!--START_SECTION:activity-->
 ## 📈 GitHub activity & stats
 
