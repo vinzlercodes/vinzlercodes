@@ -18,7 +18,8 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           user: vinzlercodes
           template: classic
-          filename: github-metrics.svg
+          filename: github-metrics.png
+          config_output: png
           base: header, activity, community, repositories, metadata
           config_timezone: America/Los_Angeles
           plugin_languages: yes
