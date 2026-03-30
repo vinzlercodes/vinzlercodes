@@ -14,17 +14,9 @@ I build **LLM + ML systems that actually ship** – from fine-tune-and-serve pla
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Vinayak%20Sengupta-blue?logo=linkedin)](https://www.linkedin.com/in/vinayak-sengupta)
-
-
 [![Medium](https://img.shields.io/badge/Medium-@vinayak.sengupta-12100E?logo=medium)](https://medium.com/@vinayak.sengupta)
-
-
 [![GitHub](https://img.shields.io/badge/GitHub-vinzlercodes-181717?logo=github)](https://github.com/vinzlercodes)
-
-
 [![Email](https://img.shields.io/badge/Email-vinayak.sengupta%40gmail.com-red?logo=gmail)](mailto:vinayak.sengupta@gmail.com)
-
-
 [![Resume](https://img.shields.io/badge/Resume-View-darkgreen)](https://docs.google.com/document/d/1DvQz1Q0MTi0pH3q4B4ePjGukJ9QmTXXXXXX)
 
 </div>
@@ -36,15 +28,14 @@ I build **LLM + ML systems that actually ship** – from fine-tune-and-serve pla
 - **LLM platforms & agents**
   - Fine-tune and serve open-source LLMs (Axolotl + QLoRA) behind **vLLM** for enterprise agent use cases.
   - Design guardrailed **RAG / GraphRAG** systems with content safety (OpenAI Moderation, NeMo Guardrails) and retrieval metrics baked in.
- 
+
 - **ML systems & explainability**
   - Ship **model-agnostic attribution and PDP** pipelines using **DuckDB + Arrow**, aligned with LightGBM + SHAP outputs for production dashboards.
- 
+
 - **Data & infra**
   - Build and harden **FastAPI** services, K8s reconciliation loops, and data pipelines in **SparkSQL**, PostgreSQL, and warehouses.
 
 I care about **robustness, observability, and measurable impact** – not just getting a Jupyter notebook to “work.”
-
 
 ## 💼 Snapshot of recent work
 
@@ -69,13 +60,12 @@ I care about **robustness, observability, and measurable impact** – not just g
 ### Research & writing
 
 - **PPO post-training for Llama text-to-SQL (3B)**
-  - Engineered a PPO pipeline that boosted F1-SQL from **16% → 84%** using ~1k human feedback samples and ≈\$11 of H100 compute, reaching task-bounded parity with an OpenAI o3-series model.
+  - Engineered a PPO pipeline that boosted F1-SQL from **16% → 84%** using ~1k human feedback samples and ≈$11 of H100 compute, reaching task-bounded parity with an OpenAI o3-series model.
 
 - **Prior ML work**
   - SATD detection and refactoring recommendation (capstone @ RIT).
   - Histopathology carcinoma classification using multi-level spatial fusion (CCIS book series, FTNCT 2019).
   - Long-form writing on Medium (Towards Data Science, The Startup, etc.) on topics from customer segmentation to the last 40 years of gaming.
-
 
 ## 🛠 Tech stack
 
@@ -94,7 +84,6 @@ I care about **robustness, observability, and measurable impact** – not just g
 **Backend / infra**  
 `FastAPI` · `Flask` · `Kubernetes` · `Docker` · `GitHub Actions`
 
-
 ## 📌 Selected projects (public repos)
 
 Some older but representative public work:
@@ -111,7 +100,6 @@ Some older but representative public work:
 - **[Recommendation-of-Refactoring-Techniques-to-address-Self-Admitted-Technical-Debt](https://github.com/vinzlercodes/Recommendation-of-Refactoring-Techniques-to-address-Self-Admitted-Technical-Debt)**  
   SATD detection and refactoring recommendation – the public side of your RIT capstone work.
 
-
 ## ✍️ Latest writing
 
 <!-- BLOG-POST-LIST:START -->
@@ -123,26 +111,21 @@ Some older but representative public work:
 
 <sub>This section is auto-updated from my Medium RSS feed.</sub>
 
-
 ## 🗣 Talks & community
 
 - Authored the core problem statement & evaluation metrics for the **UC Berkeley AI Summit 2023 – Data Science Hackathon**.
-  
 - Represented Aible at **Ai4 2023**, **Google Next 2024**, and **AWS Summit 2024**, running technical demos and stakeholder-facing discussions.
-  
 - Enjoy long-form writing on data, ML, and games whenever I can find the time.
 
-<!--START_SECTION:activity-->
 ## 📈 GitHub activity & stats
 
 <p align="center">
   <img
     src="./github-metrics.png"
     alt="GitHub profile metrics for vinzlercodes"
-    width="480"
+    width="520"
   />
 </p>
-<!--END_SECTION:activity-->
 
 ---
 
