@@ -2,20 +2,16 @@ name: Generate GitHub metrics
 
 on:
   schedule:
-    - cron: '30 5 * * *'   # once per day
+    - cron: "30 5 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: write           # needed to commit github-metrics.svg
+  contents: write
 
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
       - name: Generate metrics image
         uses: lowlighter/metrics@latest
         with:
@@ -28,9 +24,3 @@ jobs:
           plugin_languages: yes
           plugin_languages_details: percentage
           plugin_languages_limit: 6
-
-      - name: Commit metrics
-        uses: stefanzweifel/git-auto-commit-action@v7
-        with:
-          commit_message: "chore: update GitHub metrics"
-          file_pattern: github-metrics.svg
