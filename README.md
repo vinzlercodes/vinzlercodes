@@ -9,7 +9,7 @@
 
 ### Data Scientist & LLM Systems Engineer
 
-I build **LLM + ML systems that actually ship** – from fine-tune-and-serve platforms and GraphRAG pipelines to model-agnostic explainability and data products.
+I build **LLM + ML systems that actually ship** – from creating post-training and serving platforms to GraphRAG pipelines. I strive for model-agnostic explainability data products.
 
 <br/>
 
