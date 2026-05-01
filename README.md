@@ -1,17 +1,15 @@
 <!--
   Profile README for github.com/vinzlercodes
-  Focus: LLM systems, applied ML, retrieval, and data platforms.
+  Focus: AI-native product/platform engineering, LLM systems, applied ML, and analytics products.
 -->
 
 <div align="center">
 
-# 👋 Hi, I’m Vinayak Sengupta
+# Hi, I'm Vinayak Sengupta
 
-### Data Scientist & LLM Systems Engineer
+### AI-Native Product & Platform Engineer | LLM Systems | Data Science
 
-I build **LLM + ML systems that actually ship**. From creating post-training and serving platforms to GraphRAG pipelines. I strive for model-agnostic explainability data products.
-
-<br/>
+I build production AI systems that turn model capability into usable enterprise workflows: agent orchestration, fine-tuning, retrieval evaluation, explainability, analytics products, and the platform plumbing needed to keep all of it observable.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Vinayak%20Sengupta-blue?logo=linkedin)](https://www.linkedin.com/in/vinayak-sengupta)
 [![Medium](https://img.shields.io/badge/Medium-@vinayak.sengupta-12100E?logo=medium)](https://medium.com/@vinayak.sengupta)
@@ -23,84 +21,68 @@ I build **LLM + ML systems that actually ship**. From creating post-training and
 
 ---
 
-## 🧠 What I do
+## What I Build
 
-- **LLM platforms & agents**
-  - Fine-tune and serve open-source LLMs (Axolotl + QLoRA) behind **vLLM** for enterprise agent use cases.
-  - Design guardrailed **RAG / GraphRAG** systems with content safety (OpenAI Moderation, NeMo Guardrails) and retrieval metrics baked in.
+| Area | Current focus |
+| --- | --- |
+| Agent platforms | Multi-agent coordination, deterministic tool execution, human-in-the-loop confirmations, tool-call graphs, and enterprise workflow automation. |
+| LLM operations | SFT, DPO, PPO, QLoRA, Axolotl, vLLM, checkpoint recovery, model serving, and failure diagnostics for production AI workflows. |
+| Retrieval and evaluation | RAG/GraphRAG over long-form and graph-structured documents, ranking quality, BM25, MMR, reranking, and nDCG@k measurement. |
+| Explainability and analytics | Model-agnostic attribution, PDP workflows, KPI design, DuckDB/Arrow pipelines, SHAP alignment, and stakeholder-facing analytics products. |
+| Platform engineering | FastAPI services, Kubernetes reconciliation loops, productized launch flows, health checks, observability, and reusable enterprise assets. |
 
-- **ML systems & explainability**
-  - Ship **model-agnostic attribution and PDP** pipelines using **DuckDB + Arrow**, aligned with LightGBM + SHAP outputs for production dashboards.
+I care about systems that are measurable, debuggable, and useful to the people who have to run them after the demo is over.
 
-- **Data & infra**
-  - Build and harden **FastAPI** services, K8s reconciliation loops, and data pipelines in **SparkSQL**, PostgreSQL, and warehouses.
+## Recent Work
 
-I care about **robustness, observability, and measurable impact** – not just getting a Jupyter notebook to “work.”
+### Aible - Data Scientist, AI-Native Systems & Enterprise Workflows
 
-## 💼 Snapshot of recent work
+- Architected an NVIDIA NeMo Agent Toolkit LLM runtime for dynamic reasoning chains, multi-agent coordination, deterministic tool execution, and enterprise workflow automation.
+- Built a FastAPI execution layer that converts user/model intent into runnable agent configurations across tools, document workflows, prediction scoring, and human-in-the-loop approvals.
+- Designed a pluggable enterprise tool registry with persisted execution metadata and tool-call graphs for observability, reproducibility, workflow reuse, and operational debugging.
+- Productized an OpenClaw-based agent platform with sandbox launch flows, tenant configuration, health checks, gateway reachability checks, Slack access, streaming responses, and failure diagnostics.
 
-### Aible – Data Scientist (2023–Present)
+### AI Operations, Fine-Tuning & Reliability
 
-- **Custom LLM fine-tune & serve platform**
-  - Architected a fault-tolerant fine-tune-and-serve platform (Axolotl + QLoRA + vLLM) for multiple open-source foundation models.
-  - Automated checkpoint detection & recovery, cutting manual setup / monitoring by **~80%** and enabling a Fortune 50 telecom to ship a security metadata classifier on time.
+- Led a fault-tolerant fine-tune-and-serve platform for enterprise AI use cases, translating customer requirements into scalable experimentation and deployment workflows.
+- Implemented SFT and DPO workflows using Axolotl and QLoRA; automated checkpoint detection and recovery, reducing manual setup and monitoring effort by **80%**.
+- Enabled a Fortune 50 telecom client to launch a security metadata classifier on schedule through a productionized fine-tuning and serving workflow.
 
-- **Model-agnostic feature attribution & PDP**
-  - Built a single-pass explanation pipeline using model predictions + univariate summaries with **DuckDB** pivoting over **Arrow** data.
-  - Unified global + pairwise explanations across LightGBM and SHAP, and reduced per-feature PDP compute **17×** while keeping curve fidelity (ρ≈0.90).
+### Retrieval, Document Intelligence & Explainability
 
-- **Model reconciliation controller**
-  - Re-architected a fragmented Flask process into a **FastAPI** proxy with an idempotent reconcile loop using DeepDiff + K8s helpers.
-  - Consolidated four manual steps into one API and cut manual recovery effort by **90%**, speeding pod rollouts **3×** and eliminating double-launch incidents.
+- Designed retrieval workflows for graph-structured and long-form enterprise documents while balancing ranking quality, token constraints, modular experimentation, and production evaluation.
+- Improved retrieval nDCG@k by **25%** through iterative tuning of BM25, Maximal Marginal Relevance, and reranking components.
+- Led a standardized model explainability/PDP analytics workflow that reduced per-feature computation time by **17x** while maintaining median curve fidelity around **0.90**.
 
-- **Graph-structured document summarization**
-  - Implemented RAG + GraphRAG over **Neo4j** with embedding clustering, token-based splitting, BM25, MMR, and FlashRank-based re-ranking.
-  - Integrated OpenAI Moderation + NeMo Guardrails and improved retrieval nDCG@k by **25%**, shipping a modular retrieval suite into production.
+## Current Product Builds
 
-### Research & writing
+| Build | What it explores |
+| --- | --- |
+| Open Prior Auth Workbench | A FHIR-first healthcare AI workbench for discovering coverage requirements, prefilling documentation questionnaires, assembling submission-ready packets, and tracking case status through human review. |
+| Multi-agent commerce systems | A Swiggy-style production multi-agent system spanning food, delivery, and dine-out domains. |
+| LLM workflow tools | Obsidian/n8n LLM-wiki writing agents, MiroFish-style LLM councils for risk decisioning, GEN-1 robotics concepts, and Codex agentic OS experiments. |
 
-- **PPO post-training for Llama text-to-SQL (3B)**
-  - Engineered a PPO pipeline that boosted F1-SQL from **16% → 84%** using ~1k human feedback samples and ≈$11 of H100 compute, reaching task-bounded parity with an OpenAI o3-series model.
+## Technical Toolkit
 
-- **Prior ML work**
-  - SATD detection and refactoring recommendation (capstone @ RIT).
-  - Histopathology carcinoma classification using multi-level spatial fusion (CCIS book series, FTNCT 2019).
-  - Long-form writing on Medium (Towards Data Science, The Startup, etc.) on topics from customer segmentation to the last 40 years of gaming.
+**Agentic AI & LLM systems**
+`multi-agent orchestration` · `tool registries` · `AgentOps` · `human-in-the-loop flows` · `RAG` · `GraphRAG` · `SFT` · `DPO` · `PPO` · `QLoRA` · `Axolotl` · `vLLM` · `LangChain` · `LlamaIndex` · `NVIDIA NeMo Toolkit` · `NeMo Guardrails` · `OpenAI` · `Vertex AI`
 
-## 🛠 Tech stack
+**Platforms, data & backend**
+`Python` · `SQL` · `Cypher` · `FastAPI` · `Flask` · `PySpark` · `DuckDB` · `PostgreSQL` · `MongoDB` · `Neo4j` · `Chroma` · `AWS` · `GCP` · `Docker` · `Kubernetes` · `GitHub Actions` · `OpenTelemetry` · `Langfuse`
 
-**Languages**  
-`Python` · `SQL` · `Cypher`
+**ML, product & analytics**
+`PyTorch` · `TensorFlow` · `Keras` · `scikit-learn` · `LightGBM` · `SHAP` · `ONNX` · `PDP` · `KPI design` · `stakeholder discovery` · `PRDs` · `MVP roadmaps` · `success metrics`
 
-**ML / LLM**  
-`PyTorch` · `TensorFlow` · `Keras` · `scikit-learn` · `LightGBM` · `SHAP` · `ONNX`  
-`Axolotl` · `QLoRA` · `vLLM` · `LangChain` · `LlamaIndex` · `NeMo Microservices` · `NeMo Guardrails`  
-`OpenAI` · `Vertex AI`
+## Selected Public Projects
 
-**Data & storage**  
-`DuckDB` · `PostgreSQL` · `MongoDB` · `Neo4j` · `Chroma` · `PySpark`  
-`AWS` · `GCP`
+| Project | Signal |
+| --- | --- |
+| [Gaming-Industry-Analysis](https://github.com/vinzlercodes/Gaming-Industry-Analysis) | Data analysis of a 40-year gaming dataset, including genre/platform trends, sales patterns, publisher contributions, and a companion long-form article. |
+| [Prediction-of-Customer-Churn](https://github.com/vinzlercodes/Prediction-of-Customer-Churn) | ANN-based churn prediction for banking customers with ROC, confusion matrix, pie chart, KDE, and counter-plot analysis. |
+| [Disaster-Response-Pipeline-Web-App](https://github.com/vinzlercodes/Disaster-Response-Pipeline-Web-App) | End-to-end ETL, NLP, and ML pipeline powering a web app for classifying disaster-response messages. |
+| [Recommendation-of-Refactoring-Techniques-to-address-Self-Admitted-Technical-Debt](https://github.com/vinzlercodes/Recommendation-of-Refactoring-Techniques-to-address-Self-Admitted-Technical-Debt) | SATD detection and refactoring recommendation work from my RIT capstone. |
 
-**Backend / infra**  
-`FastAPI` · `Flask` · `Kubernetes` · `Docker` · `GitHub Actions`
-
-## 📌 Selected projects (public repos)
-
-Some older but representative public work:
-
-- **[Gaming-Industry-Analysis](https://github.com/vinzlercodes/Gaming-Industry-Analysis)**  
-  Data analysis of a 40-year gaming dataset – genre/platform trends, sales patterns, and publisher contributions, plus a companion blog post tying it all together.
-
-- **[Prediction-of-Customer-Churn](https://github.com/vinzlercodes/Prediction-of-Customer-Churn)**  
-  ANN-based churn prediction for banking customers, with extensive visualization (ROC, confusion matrix, pie charts, KDE, counter plots).
-
-- **[Disaster-Response-Pipeline-Web-App](https://github.com/vinzlercodes/Disaster-Response-Pipeline-Web-App)**  
-  End-to-end ETL + NLP + ML pipeline that powers a web app for classifying disaster-related messages into multiple categories.
-
-- **[Recommendation-of-Refactoring-Techniques-to-address-Self-Admitted-Technical-Debt](https://github.com/vinzlercodes/Recommendation-of-Refactoring-Techniques-to-address-Self-Admitted-Technical-Debt)**  
-  SATD detection and refactoring recommendation – the public side of your RIT capstone work.
-
-## ✍️ Latest writing
+## Writing & Research
 
 <!-- BLOG-POST-LIST:START -->
 - [The Essential Guide to Effectively Summarizing Massive Documents, Part 1](https://medium.com/data-science/demystifying-document-digestion-a-deep-dive-into-summarizing-massive-documents-part-1-53f2ed9a669d?source=rss-315151b8e67d------2)
@@ -109,24 +91,38 @@ Some older but representative public work:
 - [The Last 40 Years of Gaming Industry, Unlocked.](https://medium.com/swlh/the-last-40-years-of-gaming-industry-unlocked-baf4699ad8ba?source=rss-315151b8e67d------2)
 <!-- BLOG-POST-LIST:END -->
 
-<sub>This section is auto-updated from my Medium RSS feed.</sub>
+<sub>Auto-updated from my Medium RSS feed.</sub>
 
-## 🗣 Talks & community
+Other work: PPO post-training for Llama text-to-SQL, SATD detection and refactoring recommendation, and histopathology carcinoma classification using multi-level spatial fusion.
 
-- Authored the core problem statement & evaluation metrics for the **UC Berkeley AI Summit 2023 – Data Science Hackathon**.
-- Represented Aible at **Ai4 2023**, **Google Next 2024**, and **AWS Summit 2024**, running technical demos and stakeholder-facing discussions.
-- Enjoy long-form writing on data, ML, and games whenever I can find the time.
+## Talks & Community
 
-## 📈 GitHub activity & stats
+- Authored the core problem statement and evaluation metrics for the **UC Berkeley AI Summit 2023 - Data Science Hackathon**.
+- Represented Aible at **Ai4 2023**, **Google Next 2024**, and **AWS Summit 2024**, translating technical systems into demos and customer conversations.
+- Write long-form pieces on document summarization, retrieval systems, RAG evaluation, customer segmentation, applied AI, and gaming industry analysis.
+
+## GitHub Activity & Analytics
 
 <p align="center">
   <img
     src="./github-metrics.png"
-    alt="GitHub profile metrics for vinzlercodes"
+    alt="Generated GitHub metrics for vinzlercodes, including contribution activity, repository counts, community stats, and most-used languages"
     width="520"
   />
 </p>
 
+| Signal | What to look for |
+| --- | --- |
+| Languages | A practical mix of data, backend, notebooks, and web-facing work rather than a single narrow stack. |
+| Repositories | Public projects skew older but show the arc from analytics and ML pipelines toward AI-native systems. |
+| Writing | Medium activity makes the technical reasoning visible, especially around retrieval, summarization, and applied analytics. |
+| Activity feed | Recent public GitHub events are generated below so profile movement is visible between larger project updates. |
+
+### Recent GitHub Activity
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
 ---
 
-<sub>⚡ Fun fact: I will absolutely over-analyze both fragrance notes and video-game industry trends.</sub>
+<sub>Fun fact: I will absolutely over-analyze both fragrance notes and video-game industry trends.</sub>
