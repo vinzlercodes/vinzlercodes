@@ -121,16 +121,16 @@ Other work: PPO post-training for Llama text-to-SQL, SATD detection and refactor
 ### Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🗣 Commented on [#7](https://github.com/vinzlercodes/DecisionRisk/issues/7#issuecomment-4394142810) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
-2. 🎉 Merged PR [#39](https://github.com/vinzlercodes/DecisionRisk/pull/39) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
-3. 🎉 Merged PR [#38](https://github.com/vinzlercodes/DecisionRisk/pull/38) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
-4. 🎉 Merged PR [#37](https://github.com/vinzlercodes/DecisionRisk/pull/37) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
-5. 🔒 Closed issue [#7](https://github.com/vinzlercodes/DecisionRisk/issues/7) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
-6. 💪 Opened PR [#39](https://github.com/vinzlercodes/DecisionRisk/pull/39) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
-7. 💪 Opened PR [#38](https://github.com/vinzlercodes/DecisionRisk/pull/38) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
-8. 💪 Opened PR [#37](https://github.com/vinzlercodes/DecisionRisk/pull/37) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
-9. 🔒 Closed issue [#6](https://github.com/vinzlercodes/DecisionRisk/issues/6) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
-10. 🗣 Commented on [#6](https://github.com/vinzlercodes/DecisionRisk/issues/6#issuecomment-4393875224) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
+1. 🎉 Merged PR [#40](https://github.com/vinzlercodes/DecisionRisk/pull/40) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
+2. 🎉 Merged PR [#41](https://github.com/vinzlercodes/DecisionRisk/pull/41) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
+3. 🎉 Merged PR [#42](https://github.com/vinzlercodes/DecisionRisk/pull/42) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
+4. 🔒 Closed issue [#8](https://github.com/vinzlercodes/DecisionRisk/issues/8) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
+5. 🗣 Commented on [#8](https://github.com/vinzlercodes/DecisionRisk/issues/8#issuecomment-4403545871) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
+6. 💪 Opened PR [#42](https://github.com/vinzlercodes/DecisionRisk/pull/42) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
+7. 💪 Opened PR [#41](https://github.com/vinzlercodes/DecisionRisk/pull/41) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
+8. 💪 Opened PR [#40](https://github.com/vinzlercodes/DecisionRisk/pull/40) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
+9. 🗣 Commented on [#7](https://github.com/vinzlercodes/DecisionRisk/issues/7#issuecomment-4394142810) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
+10. 🎉 Merged PR [#39](https://github.com/vinzlercodes/DecisionRisk/pull/39) in [vinzlercodes/DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)
 <!--END_SECTION:activity-->
 
 ---
