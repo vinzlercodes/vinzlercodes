@@ -118,8 +118,6 @@ Other work: PPO post-training for Llama text-to-SQL, SATD detection and refactor
 | Writing | Medium activity makes the technical reasoning visible, especially around retrieval, summarization, and applied analytics. |
 | Activity feed | Recent public GitHub events are generated below so profile movement is visible between larger project updates. |
 
-[![aislop](https://badges.scanaislop.com/score/vinzlercodes/Open_Prior_Auth_Workbench.svg)](https://scanaislop.com)
-
 ### Recent GitHub Activity
 
 <!--START_SECTION:activity-->
