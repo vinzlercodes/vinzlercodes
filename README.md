@@ -149,7 +149,7 @@ _Public card only. Raw prompts, private code, workspace names, file paths, model
 <!--START_SECTION:activity-->
 1. 🚀 Published release [v0.1.0 — GitHub Profile Metrics Publisher for AI Engineer Coach](https://github.com/vinzlercodes/ai-coach-profile-publisher/releases/tag/v0.1.0) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
 2. 🎉 Merged PR [#72](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/72) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
-3. 💪 Opened PR [72](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/72) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
+3. 💪 Opened PR [#72](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/72) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
 4. 🎉 Merged PR [#71](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/71) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
 5. 💪 Opened PR [#71](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/71) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
 6. 🎉 Merged PR [#70](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/70) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
