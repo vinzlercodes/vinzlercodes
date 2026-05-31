@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-31T03:43:34.741Z",
+  "generatedAt": "2026-05-31T16:31:02.651Z",
   "current": {
-    "fromDate": "2026-05-01",
-    "toDate": "2026-05-30",
-    "requests": 1329,
-    "antiPatternOccurrences": 9712
+    "fromDate": "2026-05-02",
+    "toDate": "2026-05-31",
+    "requests": 1263,
+    "antiPatternOccurrences": 9315
   },
   "previous": {
-    "fromDate": "2026-04-01",
-    "toDate": "2026-04-30",
-    "requests": 484,
-    "antiPatternOccurrences": 4042
+    "fromDate": "2026-04-02",
+    "toDate": "2026-05-01",
+    "requests": 550,
+    "antiPatternOccurrences": 4495
   },
   "metrics": {
-    "aiPracticeScore": 47,
-    "antiPatternRate": 730.8,
-    "antiPatternResolutionRate": 12,
+    "aiPracticeScore": 46,
+    "antiPatternRate": 737.5,
+    "antiPatternResolutionRate": 10,
     "contextHealthScore": 4,
     "promptQualityScore": 76,
     "codeReviewVerificationScore": 84,
