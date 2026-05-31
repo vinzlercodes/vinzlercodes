@@ -131,16 +131,16 @@ Other work: PPO post-training for Llama text-to-SQL, SATD detection and refactor
 ### Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#72](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/72) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
-2. 💪 Opened PR [#72](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/72) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
-3. 🎉 Merged PR [#71](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/71) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
-4. 💪 Opened PR [#71](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/71) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
-5. 🎉 Merged PR [#70](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/70) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
-6. 💪 Opened PR [#70](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/70) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
-7. 🎉 Merged PR [#69](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/69) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
-8. 💪 Opened PR [#69](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/69) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
-9. 🎉 Merged PR [#68](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/68) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
-10. 🎉 Merged PR [#67](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/67) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
+1. 🚀 Published release [v0.1.0 — GitHub Profile Metrics Publisher for AI Engineer Coach](https://github.com/vinzlercodes/ai-coach-profile-publisher/releases/tag/v0.1.0) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
+2. 🎉 Merged PR [#72](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/72) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
+3. 💪 Opened PR [#72](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/72) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
+4. 🎉 Merged PR [#71](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/71) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
+5. 💪 Opened PR [#71](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/71) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
+6. 🎉 Merged PR [#70](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/70) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
+7. 💪 Opened PR [#70](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/70) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
+8. 🎉 Merged PR [#69](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/69) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
+9. 💪 Opened PR [#69](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/69) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
+10. 🎉 Merged PR [#68](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/68) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
 <!--END_SECTION:activity-->
 
 ---
