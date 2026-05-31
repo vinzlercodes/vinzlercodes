@@ -113,6 +113,21 @@ Other work: PPO post-training for Llama text-to-SQL, SATD detection and refactor
   />
 </p>
 
+These metrics summarize how I use AI coding tools in practice, not just how much AI-generated code I produce. The card is generated from sanitized local AI Engineer Coach aggregates and is meant to show AI engineering discipline across context quality, prompt clarity, review habits, tool usage, and agentic SDLC coverage.
+
+| Metric | What it means |
+|---|---|
+| **AI Practice Score** | Overall signal of AI-assisted engineering maturity across the tracked categories. |
+| **Anti-pattern Rate** | Number of detected AI workflow anti-patterns per 100 requests. Lower is better. |
+| **Resolution Rate** | Share of detected anti-patterns that were improved or resolved over the measured period. |
+| **Context Health** | How well my projects provide the context an AI agent needs: instructions, workspace structure, and agent-readiness. |
+| **Prompt Quality** | How clearly I frame tasks, constraints, expected outputs, and review criteria for AI tools. |
+| **Review / Verification** | How consistently AI-generated work is checked through review, testing, validation, or manual inspection. |
+| **Tool Mastery** | How effectively I use AI tools, workflows, and coding assistants beyond simple prompt-and-paste usage. |
+| **Agentic SDLC Coverage** | How broadly I use AI across planning, implementation, testing, review, documentation, and iteration. |
+
+_Public card only. Raw prompts, private code, workspace names, file paths, model names, screenshots, and detailed anti-pattern records are not published._
+
 <p align="center">
   <img
     src="./github-metrics.png"
@@ -120,6 +135,7 @@ Other work: PPO post-training for Llama text-to-SQL, SATD detection and refactor
     width="520"
   />
 </p>
+
 
 | Signal | What to look for |
 | --- | --- |
@@ -133,7 +149,7 @@ Other work: PPO post-training for Llama text-to-SQL, SATD detection and refactor
 <!--START_SECTION:activity-->
 1. 🚀 Published release [v0.1.0 — GitHub Profile Metrics Publisher for AI Engineer Coach](https://github.com/vinzlercodes/ai-coach-profile-publisher/releases/tag/v0.1.0) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
 2. 🎉 Merged PR [#72](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/72) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
-3. 💪 Opened PR [#72](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/72) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
+3. 💪 Opened PR [72](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/72) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
 4. 🎉 Merged PR [#71](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/71) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
 5. 💪 Opened PR [#71](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/71) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
 6. 🎉 Merged PR [#70](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/70) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
