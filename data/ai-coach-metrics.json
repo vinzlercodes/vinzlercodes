@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-31T02:38:42.376Z",
+  "generatedAt": "2026-05-31T03:08:34.071Z",
   "current": {
     "fromDate": "2026-05-01",
     "toDate": "2026-05-30",
-    "requests": 1294,
-    "antiPatternOccurrences": 9432
+    "requests": 1324,
+    "antiPatternOccurrences": 9673
   },
   "previous": {
     "fromDate": "2026-04-01",
@@ -15,7 +15,7 @@
   },
   "metrics": {
     "aiPracticeScore": 47,
-    "antiPatternRate": 728.9,
+    "antiPatternRate": 730.6,
     "antiPatternResolutionRate": 13,
     "contextHealthScore": 4,
     "promptQualityScore": 76,
