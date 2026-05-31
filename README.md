@@ -103,6 +103,16 @@ Other work: PPO post-training for Llama text-to-SQL, SATD detection and refactor
 
 ## GitHub Activity & Analytics
 
+### AI Engineering Coach Metrics
+
+<p align="center">
+  <img
+    src="./assets/ai-coach-metrics.svg"
+    alt="Sanitized AI Engineering Coach metrics, including practice score, anti-pattern rate, context health, prompt quality, review verification, tool mastery, and agentic SDLC coverage"
+    width="760"
+  />
+</p>
+
 <p align="center">
   <img
     src="./github-metrics.png"

@@ -1,0 +1,56 @@
+name: AI Coach profile metrics
+
+on:
+  repository_dispatch:
+    types: [ai-coach-metrics]
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ai-coach-metrics
+      cancel-in-progress: true
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Accept dispatched metrics payload
+        if: github.event_name == 'repository_dispatch'
+        run: |
+          mkdir -p data
+          node --input-type=module <<'NODE'
+          import { readFileSync, writeFileSync } from 'node:fs';
+          import { sanitizePayload } from './scripts/render-ai-coach-metrics.mjs';
+          const event = JSON.parse(readFileSync(process.env.GITHUB_EVENT_PATH, 'utf8'));
+          writeFileSync('data/ai-coach-metrics.json', JSON.stringify(sanitizePayload(event.client_payload), null, 2) + '\n');
+          NODE
+
+      - name: Render metrics SVG
+        run: node scripts/render-ai-coach-metrics.mjs data/ai-coach-metrics.json assets/ai-coach-metrics.svg
+
+      - name: Test renderer
+        run: node scripts/render-ai-coach-metrics.test.mjs
+
+      - name: Commit metrics update
+        run: |
+          if git diff --quiet -- data/ai-coach-metrics.json assets/ai-coach-metrics.svg; then
+            echo "No metrics changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ai-coach-metrics.json assets/ai-coach-metrics.svg
+          git commit -m "chore: update AI Coach metrics"
+          git push
