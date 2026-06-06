@@ -7,7 +7,8 @@ const METRICS = [
   ['aiPracticeScore', 'AI Practice Score', 'score'],
   ['antiPatternRate', 'Anti-pattern Rate', 'rate'],
   ['antiPatternResolutionRate', 'Resolution Rate', 'percent'],
-  ['contextHealthScore', 'Context Health', 'score'],
+  ['contextHealthScore', 'Context Mgmt', 'score'],
+  ['contextQualityScore', 'Context Quality', 'score'],
   ['promptQualityScore', 'Prompt Quality', 'score'],
   ['codeReviewVerificationScore', 'Review / Verification', 'score'],
   ['toolMasteryScore', 'Tool Mastery', 'score'],
@@ -38,15 +39,27 @@ function escapeXml(value) {
 
 function sanitizeContextHealthWorkspace(value = {}) {
   const verdict = String(value.verdict ?? 'no data');
+  const contextManagementScore = clamp(value.contextManagementScore ?? value.contextHealthScore);
   return {
     workspaceName: String(value.workspaceName ?? ''),
     lookupWorkspaceId: String(value.lookupWorkspaceId ?? value.workspaceName ?? ''),
-    contextHealthScore: clamp(value.contextHealthScore),
+    contextHealthScore: contextManagementScore,
+    contextManagementScore,
+    contextQualityScore: clamp(value.contextQualityScore),
+    agenticReadinessScore: clamp(value.agenticReadinessScore),
+    instructionQualityScore: clamp(value.instructionQualityScore),
+    progressiveDisclosureScore: clamp(value.progressiveDisclosureScore),
     verdict: CONTEXT_VERDICTS.has(verdict) ? verdict : 'no data',
     avgUtilization: clampPercent(value.avgUtilization),
     peakUtilization: clampPercent(value.peakUtilization),
     compactions: Math.max(0, Math.round(Number(value.compactions ?? 0))),
     requestsWithTokens: Math.max(0, Math.round(Number(value.requestsWithTokens ?? 0))),
+    configFiles: Math.max(0, Math.round(Number(value.configFiles ?? 0))),
+    hasInstructions: Boolean(value.hasInstructions),
+    hasPrompts: Boolean(value.hasPrompts),
+    hasAgents: Boolean(value.hasAgents),
+    hasSkills: Boolean(value.hasSkills),
+    hasHooks: Boolean(value.hasHooks),
   };
 }
 
@@ -95,11 +108,11 @@ function formatValue(value, kind) {
 }
 
 function card([key, label, kind], index, payload) {
-  const col = index % 4;
-  const row = Math.floor(index / 4);
-  const x = 28 + col * 176;
+  const col = index % 3;
+  const row = Math.floor(index / 3);
+  const x = 28 + col * 236;
   const y = 104 + row * 102;
-  const width = 158;
+  const width = 214;
   const value = payload.metrics[key];
   const color = colorFor(value, kind);
   const bar = kind === 'rate' ? Math.max(0, Math.min(100, 100 - Number(value))) : clamp(value);
@@ -114,42 +127,53 @@ function card([key, label, kind], index, payload) {
   ].join('\n');
 }
 
-function formatUtilization(value, requestsWithTokens) {
-  if (requestsWithTokens <= 0) return '-';
-  return clampPercent(value).toFixed(1).replace(/\.0$/, '') + '%';
+function formatScore(value) {
+  return clamp(value) + '';
 }
 
-function contextHealthRow(workspace, index) {
-  const y = 386 + index * 34;
+function signalText(workspace) {
+  const signals = [];
+  if (workspace.hasInstructions) signals.push('Instr');
+  if (workspace.hasPrompts) signals.push('Prompts');
+  if (workspace.hasAgents) signals.push('Agents');
+  if (workspace.hasSkills) signals.push('Skills');
+  if (workspace.hasHooks) signals.push('Hooks');
+  return signals.length > 0 ? signals.join(' ') : '-';
+}
+
+function contextHealthRow(workspace, index, startY) {
+  const y = startY + 54 + index * 34;
   const fill = index % 2 === 0 ? '#0d1117' : '#161b22';
   return [
     '    <g>',
     '      <rect x="28" y="' + (y - 21) + '" width="704" height="34" fill="' + fill + '"/>',
     '      <text x="42" y="' + y + '" fill="#f0f6fc" font-size="12" font-weight="600">' + escapeXml(workspace.workspaceName) + '</text>',
-    '      <text x="298" y="' + y + '" fill="#f0f6fc" font-size="12">' + escapeXml(workspace.contextHealthScore + '/100') + '</text>',
-    '      <text x="384" y="' + y + '" fill="#f0f6fc" font-size="12">' + escapeXml(workspace.verdict) + '</text>',
-    '      <text x="490" y="' + y + '" fill="#f0f6fc" font-size="12">' + escapeXml(formatUtilization(workspace.avgUtilization, workspace.requestsWithTokens)) + '</text>',
-    '      <text x="570" y="' + y + '" fill="#f0f6fc" font-size="12">' + escapeXml(formatUtilization(workspace.peakUtilization, workspace.requestsWithTokens)) + '</text>',
-    '      <text x="650" y="' + y + '" fill="#f0f6fc" font-size="12">' + escapeXml(workspace.compactions) + '</text>',
-    '      <text x="704" y="' + y + '" fill="#f0f6fc" font-size="12" text-anchor="end">' + escapeXml(workspace.requestsWithTokens) + '</text>',
+    '      <text x="256" y="' + y + '" fill="#f0f6fc" font-size="12">' + escapeXml(formatScore(workspace.contextManagementScore)) + '</text>',
+    '      <text x="324" y="' + y + '" fill="#f0f6fc" font-size="12">' + escapeXml(formatScore(workspace.contextQualityScore)) + '</text>',
+    '      <text x="400" y="' + y + '" fill="#f0f6fc" font-size="12">' + escapeXml(formatScore(workspace.agenticReadinessScore)) + '</text>',
+    '      <text x="474" y="' + y + '" fill="#f0f6fc" font-size="12">' + escapeXml(formatScore(workspace.instructionQualityScore)) + '</text>',
+    '      <text x="530" y="' + y + '" fill="#f0f6fc" font-size="12">' + escapeXml(formatScore(workspace.progressiveDisclosureScore)) + '</text>',
+    '      <text x="582" y="' + y + '" fill="#f0f6fc" font-size="12">' + escapeXml(workspace.configFiles) + '</text>',
+    '      <text x="632" y="' + y + '" fill="#f0f6fc" font-size="11">' + escapeXml(signalText(workspace)) + '</text>',
     '    </g>',
   ].join('\n');
 }
 
-function contextHealthTable(payload) {
+function contextHealthTable(payload, startY) {
   if (payload.contextHealthWorkspaces.length === 0) return '';
   return [
     '  <g font-family="Inter,Segoe UI,Arial,sans-serif">',
-    '    <text x="28" y="318" fill="#f0f6fc" font-size="16" font-weight="800">Workspace Context Health</text>',
-    '    <rect x="28" y="332" width="704" height="' + (44 + payload.contextHealthWorkspaces.length * 34) + '" rx="8" fill="#0d1117" stroke="#30363d"/>',
-    '    <text x="42" y="352" fill="#8b949e" font-size="11">Workspace</text>',
-    '    <text x="298" y="352" fill="#8b949e" font-size="11">Score</text>',
-    '    <text x="384" y="352" fill="#8b949e" font-size="11">Verdict</text>',
-    '    <text x="490" y="352" fill="#8b949e" font-size="11">Avg</text>',
-    '    <text x="570" y="352" fill="#8b949e" font-size="11">Peak</text>',
-    '    <text x="650" y="352" fill="#8b949e" font-size="11">Comp</text>',
-    '    <text x="704" y="352" fill="#8b949e" font-size="11" text-anchor="end">Tokens</text>',
-    payload.contextHealthWorkspaces.map(contextHealthRow).join('\n'),
+    '    <text x="28" y="' + startY + '" fill="#f0f6fc" font-size="16" font-weight="800">Workspace Context Health</text>',
+    '    <rect x="28" y="' + (startY + 14) + '" width="704" height="' + (44 + payload.contextHealthWorkspaces.length * 34) + '" rx="8" fill="#0d1117" stroke="#30363d"/>',
+    '    <text x="42" y="' + (startY + 34) + '" fill="#8b949e" font-size="11">Workspace</text>',
+    '    <text x="256" y="' + (startY + 34) + '" fill="#8b949e" font-size="11">Mgmt</text>',
+    '    <text x="324" y="' + (startY + 34) + '" fill="#8b949e" font-size="11">Quality</text>',
+    '    <text x="400" y="' + (startY + 34) + '" fill="#8b949e" font-size="11">Agentic</text>',
+    '    <text x="474" y="' + (startY + 34) + '" fill="#8b949e" font-size="11">Instr</text>',
+    '    <text x="530" y="' + (startY + 34) + '" fill="#8b949e" font-size="11">PD</text>',
+    '    <text x="582" y="' + (startY + 34) + '" fill="#8b949e" font-size="11">Files</text>',
+    '    <text x="632" y="' + (startY + 34) + '" fill="#8b949e" font-size="11">Signals</text>',
+    payload.contextHealthWorkspaces.map((workspace, index) => contextHealthRow(workspace, index, startY)).join('\n'),
     '  </g>',
   ].join('\n');
 }
@@ -158,9 +182,10 @@ export function renderMetricsSvg(rawPayload) {
   const payload = sanitizePayload(rawPayload);
   const generatedDate = payload.generatedAt.slice(0, 10);
   const range = payload.current.fromDate + ' to ' + payload.current.toDate;
+  const tableStartY = 420;
   const height = payload.contextHealthWorkspaces.length > 0
-    ? 420 + payload.contextHealthWorkspaces.length * 34
-    : 330;
+    ? tableStartY + 88 + payload.contextHealthWorkspaces.length * 34
+    : 430;
   return [
     '<svg xmlns="http://www.w3.org/2000/svg" width="760" height="' + height + '" viewBox="0 0 760 ' + height + '" role="img" aria-labelledby="title desc">',
     '  <title id="title">AI Engineering Coach metrics</title>',
@@ -173,7 +198,7 @@ export function renderMetricsSvg(rawPayload) {
     '  <g font-family="Inter,Segoe UI,Arial,sans-serif">',
     METRICS.map((metric, index) => card(metric, index, payload)).join('\n'),
     '  </g>',
-    contextHealthTable(payload),
+    contextHealthTable(payload, tableStartY),
     '</svg>',
     '',
   ].join('\n');

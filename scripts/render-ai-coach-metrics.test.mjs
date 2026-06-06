@@ -17,6 +17,7 @@ const payload = {
     antiPatternRate: 1.2,
     antiPatternResolutionRate: 40,
     contextHealthScore: 91,
+    contextQualityScore: 56,
     promptQualityScore: 88,
     codeReviewVerificationScore: 72,
     toolMasteryScore: 77,
@@ -26,23 +27,24 @@ const payload = {
     {
       workspaceName: 'ai-coach-profile-publisher',
       lookupWorkspaceId: 'ai-coach-profile-publisher',
-      contextHealthScore: 96,
+      contextHealthScore: 98,
+      contextManagementScore: 98,
+      contextQualityScore: 56,
+      agenticReadinessScore: 40,
+      instructionQualityScore: 87,
+      progressiveDisclosureScore: 75,
       verdict: 'limited',
-      avgUtilization: 27.1,
-      peakUtilization: 99.2,
+      avgUtilization: 28.2,
+      peakUtilization: 99.6,
       compactions: 0,
-      requestsWithTokens: 14,
-      promptPreview: 'private prompt text',
-    },
-    {
-      workspaceName: 'Open_Prior_Auth_Workbench',
-      lookupWorkspaceId: 'Doctor',
-      contextHealthScore: 96,
-      verdict: 'limited',
-      avgUtilization: 37,
-      peakUtilization: 100,
-      compactions: 0,
-      requestsWithTokens: 448,
+      requestsWithTokens: 48,
+      configFiles: 8,
+      hasInstructions: true,
+      hasPrompts: false,
+      hasAgents: false,
+      hasSkills: true,
+      hasHooks: false,
+      suggestion: 'private suggestion text',
     },
   ],
 };
@@ -50,14 +52,15 @@ const payload = {
 const sanitized = sanitizePayload(payload);
 assert.equal(sanitized.workspaceName, undefined);
 assert.equal(sanitized.promptPreview, undefined);
-assert.equal(sanitized.contextHealthWorkspaces[0].promptPreview, undefined);
+assert.equal(sanitized.contextHealthWorkspaces[0].suggestion, undefined);
 
 const svg = renderMetricsSvg(payload);
 for (const label of [
   'AI Practice Score',
   'Anti-pattern Rate',
   'Resolution Rate',
-  'Context Health',
+  'Context Mgmt',
+  'Context Quality',
   'Prompt Quality',
   'Review / Verification',
   'Tool Mastery',
@@ -67,15 +70,23 @@ for (const label of [
 }
 for (const value of [
   'Workspace Context Health',
+  'Mgmt',
+  'Quality',
+  'Agentic',
+  'Instr',
+  'PD',
+  'Signals',
   'ai-coach-profile-publisher',
-  'Open_Prior_Auth_Workbench',
-  'limited',
-  '27.1%',
-  '448',
+  '98',
+  '56',
+  '40',
+  '87',
+  '75',
+  'Instr Skills',
 ]) {
   assert.match(svg, new RegExp(value.replaceAll('/', '\\/')));
 }
-assert.doesNotMatch(svg, /secret-project|private prompt text/);
+assert.doesNotMatch(svg, /secret-project|private prompt text|private suggestion text/);
 
 const dir = mkdtempSync(join(tmpdir(), 'ai-coach-metrics-'));
 const input = join(dir, 'metrics.json');
