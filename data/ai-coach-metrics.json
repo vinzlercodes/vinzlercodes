@@ -1,22 +1,22 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-06T06:17:45.661Z",
+  "generatedAt": "2026-06-06T17:48:08.556Z",
   "current": {
-    "fromDate": "2026-05-07",
-    "toDate": "2026-06-05",
-    "requests": 1121,
-    "antiPatternOccurrences": 8322
+    "fromDate": "2026-05-08",
+    "toDate": "2026-06-06",
+    "requests": 1087,
+    "antiPatternOccurrences": 8023
   },
   "previous": {
-    "fromDate": "2026-04-07",
-    "toDate": "2026-05-06",
-    "requests": 747,
-    "antiPatternOccurrences": 5770
+    "fromDate": "2026-04-08",
+    "toDate": "2026-05-07",
+    "requests": 780,
+    "antiPatternOccurrences": 6071
   },
   "metrics": {
-    "aiPracticeScore": 56,
-    "antiPatternRate": 742.4,
-    "antiPatternResolutionRate": 4,
+    "aiPracticeScore": 57,
+    "antiPatternRate": 738.1,
+    "antiPatternResolutionRate": 5,
     "contextHealthScore": 96,
     "promptQualityScore": 72,
     "codeReviewVerificationScore": 72,
@@ -27,22 +27,22 @@
     {
       "workspaceName": "ai-coach-profile-publisher",
       "lookupWorkspaceId": "ai-coach-profile-publisher",
-      "contextHealthScore": 97,
+      "contextHealthScore": 95,
       "verdict": "limited",
-      "avgUtilization": 30.5,
+      "avgUtilization": 32.8,
       "peakUtilization": 99.6,
       "compactions": 0,
-      "requestsWithTokens": 55
+      "requestsWithTokens": 61
     },
     {
       "workspaceName": "DecisionRisk",
       "lookupWorkspaceId": "DecisionRisk",
       "contextHealthScore": 97,
       "verdict": "limited",
-      "avgUtilization": 34.6,
-      "peakUtilization": 99.9,
+      "avgUtilization": 34.2,
+      "peakUtilization": 99.8,
       "compactions": 0,
-      "requestsWithTokens": 118
+      "requestsWithTokens": 92
     },
     {
       "workspaceName": "Open_Prior_Auth_Workbench",
