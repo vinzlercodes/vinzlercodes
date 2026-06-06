@@ -1,25 +1,25 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-05-31T16:31:02.651Z",
+  "generatedAt": "2026-06-06T05:50:37.192Z",
   "current": {
-    "fromDate": "2026-05-02",
-    "toDate": "2026-05-31",
-    "requests": 1263,
-    "antiPatternOccurrences": 9315
+    "fromDate": "2026-05-07",
+    "toDate": "2026-06-05",
+    "requests": 1102,
+    "antiPatternOccurrences": 8188
   },
   "previous": {
-    "fromDate": "2026-04-02",
-    "toDate": "2026-05-01",
-    "requests": 550,
-    "antiPatternOccurrences": 4495
+    "fromDate": "2026-04-07",
+    "toDate": "2026-05-06",
+    "requests": 747,
+    "antiPatternOccurrences": 5770
   },
   "metrics": {
-    "aiPracticeScore": 46,
-    "antiPatternRate": 737.5,
-    "antiPatternResolutionRate": 10,
-    "contextHealthScore": 4,
-    "promptQualityScore": 76,
-    "codeReviewVerificationScore": 84,
+    "aiPracticeScore": 57,
+    "antiPatternRate": 743,
+    "antiPatternResolutionRate": 4,
+    "contextHealthScore": 97,
+    "promptQualityScore": 72,
+    "codeReviewVerificationScore": 72,
     "toolMasteryScore": 81,
     "agenticSdlcCoverage": 70
   }
