@@ -147,16 +147,16 @@ _Public card only. Raw prompts, private code, workspace names, file paths, model
 ### Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#3](https://github.com/vinzlercodes/ai-coach-profile-publisher/pull/3) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
-2. 🎉 Merged PR [#2](https://github.com/vinzlercodes/ai-coach-profile-publisher/pull/2) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
-3. 🎉 Merged PR [#1](https://github.com/vinzlercodes/ai-coach-profile-publisher/pull/1) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
-4. 💪 Opened PR [#3](https://github.com/vinzlercodes/ai-coach-profile-publisher/pull/3) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
-5. 💪 Opened PR [#2](https://github.com/vinzlercodes/ai-coach-profile-publisher/pull/2) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
-6. 💪 Opened PR [#1](https://github.com/vinzlercodes/ai-coach-profile-publisher/pull/1) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
-7. 🚀 Published release [v0.1.0 — GitHub Profile Metrics Publisher for AI Engineer Coach](https://github.com/vinzlercodes/ai-coach-profile-publisher/releases/tag/v0.1.0) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
-8. 🎉 Merged PR [#72](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/72) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
-9. 💪 Opened PR [#72](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/72) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
-10. 🎉 Merged PR [#71](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/71) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
+1. 🎉 Merged PR [#4](https://github.com/vinzlercodes/ai-coach-profile-publisher/pull/4) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
+2. 💪 Opened PR [#4](https://github.com/vinzlercodes/ai-coach-profile-publisher/pull/4) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
+3. 🎉 Merged PR [#3](https://github.com/vinzlercodes/ai-coach-profile-publisher/pull/3) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
+4. 🎉 Merged PR [#2](https://github.com/vinzlercodes/ai-coach-profile-publisher/pull/2) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
+5. 🎉 Merged PR [#1](https://github.com/vinzlercodes/ai-coach-profile-publisher/pull/1) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
+6. 💪 Opened PR [#3](https://github.com/vinzlercodes/ai-coach-profile-publisher/pull/3) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
+7. 💪 Opened PR [#2](https://github.com/vinzlercodes/ai-coach-profile-publisher/pull/2) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
+8. 💪 Opened PR [#1](https://github.com/vinzlercodes/ai-coach-profile-publisher/pull/1) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
+9. 🚀 Published release [v0.1.0 — GitHub Profile Metrics Publisher for AI Engineer Coach](https://github.com/vinzlercodes/ai-coach-profile-publisher/releases/tag/v0.1.0) in [vinzlercodes/ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher)
+10. 🎉 Merged PR [#72](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/72) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
 <!--END_SECTION:activity-->
 
 ---
