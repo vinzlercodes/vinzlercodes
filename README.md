@@ -147,16 +147,16 @@ _Public card only. Raw prompts, private code, workspace names, file paths, model
 ### Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#5](https://github.com/vinzlercodes/artifact-format-eval/pull/5) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
-2. 💪 Opened PR [#5](https://github.com/vinzlercodes/artifact-format-eval/pull/5) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
-3. 🎉 Merged PR [#4](https://github.com/vinzlercodes/artifact-format-eval/pull/4) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
-4. 💪 Opened PR [#4](https://github.com/vinzlercodes/artifact-format-eval/pull/4) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
-5. 🎉 Merged PR [#3](https://github.com/vinzlercodes/artifact-format-eval/pull/3) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
-6. 🎉 Merged PR [#2](https://github.com/vinzlercodes/artifact-format-eval/pull/2) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
-7. 🎉 Merged PR [#1](https://github.com/vinzlercodes/artifact-format-eval/pull/1) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
-8. 💪 Opened PR [#3](https://github.com/vinzlercodes/artifact-format-eval/pull/3) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
-9. 💪 Opened PR [#2](https://github.com/vinzlercodes/artifact-format-eval/pull/2) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
-10. 💪 Opened PR [#1](https://github.com/vinzlercodes/artifact-format-eval/pull/1) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
+1. 🎉 Merged PR [#8](https://github.com/vinzlercodes/artifact-format-eval/pull/8) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
+2. 💪 Opened PR [#8](https://github.com/vinzlercodes/artifact-format-eval/pull/8) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
+3. 🎉 Merged PR [#7](https://github.com/vinzlercodes/artifact-format-eval/pull/7) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
+4. 🎉 Merged PR [#6](https://github.com/vinzlercodes/artifact-format-eval/pull/6) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
+5. 💪 Opened PR [#7](https://github.com/vinzlercodes/artifact-format-eval/pull/7) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
+6. 💪 Opened PR [#6](https://github.com/vinzlercodes/artifact-format-eval/pull/6) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
+7. 🎉 Merged PR [#5](https://github.com/vinzlercodes/artifact-format-eval/pull/5) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
+8. 💪 Opened PR [#5](https://github.com/vinzlercodes/artifact-format-eval/pull/5) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
+9. 🎉 Merged PR [#4](https://github.com/vinzlercodes/artifact-format-eval/pull/4) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
+10. 💪 Opened PR [#4](https://github.com/vinzlercodes/artifact-format-eval/pull/4) in [vinzlercodes/artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)
 <!--END_SECTION:activity-->
 
 ---
