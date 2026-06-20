@@ -15,7 +15,7 @@ I build production AI systems that turn model capability into usable enterprise 
 [![Medium](https://img.shields.io/badge/Medium-@vinayak.sengupta-12100E?logo=medium)](https://medium.com/@vinayak.sengupta)
 [![GitHub](https://img.shields.io/badge/GitHub-vinzlercodes-181717?logo=github)](https://github.com/vinzlercodes)
 [![Email](https://img.shields.io/badge/Email-vinayak.sengupta%40gmail.com-red?logo=gmail)](mailto:vinayak.sengupta@gmail.com)
-[![Resume](https://img.shields.io/badge/Resume-View-darkgreen)](https://drive.google.com/file/d/16ZBHCigkBxbTVZG2-Oo9yRuEE1MRx8PI/view?usp=sharing)
+[![Resume](https://img.shields.io/badge/Resume-View-darkgreen)](https://drive.google.com/file/d/1SAP9vqacMl2tCdMIMIivMVqDTJ-zWWbZ/view?usp=share_link)
 
 </div>
 
