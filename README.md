@@ -19,6 +19,14 @@ I build governed agentic workflow platforms where LLMs, tools, human approvals, 
 
 </div>
 
+![Vinayak Sengupta builds governed agentic workflow platforms across healthcare, finance, risk, developer tooling, and evals](./assets/profile-hero.svg)
+
+![Healthcare AI](https://img.shields.io/badge/Healthcare%20AI-Prior%20Auth-1D4ED8)
+![Finance Decisioning](https://img.shields.io/badge/Finance-Borrowing%20Base-15803D)
+![Risk Simulation](https://img.shields.io/badge/Risk-Scenario%20Replay-A16207)
+![Agent Tooling](https://img.shields.io/badge/Agent%20Tooling-Codex%20%2B%20Hermes-0E7490)
+![Evals](https://img.shields.io/badge/Evals-Deterministic%20Replay-334155)
+
 ---
 
 ## What I Build
@@ -58,8 +66,10 @@ I care about systems that are measurable, debuggable, and useful to the people w
 
 ## Current Product Builds
 
+![Portfolio system map connecting healthcare, finance, risk, and developer tooling to a governed agent runtime](./assets/profile-system-map.svg)
+
 | Build                                                                                  | Domain | What it explores |
-|----------------------------------------------------------------------------------------| --- | --- |
+| --- | --- | --- |
 | [Open Prior Auth Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench) | Healthcare | FHIR-first prior authorization workbench for requirement discovery, deterministic questionnaire prefill, evidence intake, packet assembly, payer-status loops, human review, audit trails, and agent evals. |
 | [DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)                           | Risk | MiroFish-first decision rehearsal engine with evidence graphs, scenario ensembles, adversarial council review, transparent risk metrics, provenance validation, replay artifacts, and auditable Risk Dockets. |
 | CanopyLedger (Coming Soon)                                                             | Finance | Private evidence-adjusted borrowing-base decisioning build for coffee trade finance, with immutable facility snapshots, reproducible collateral valuation, governed decisions, idempotent APIs, and integrity checks. |

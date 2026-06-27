@@ -1,0 +1,55 @@
+<svg width="960" height="360" viewBox="0 0 960 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Agentic portfolio system map</title>
+  <desc id="desc">A system map connecting domains, runtime primitives, and public projects in Vinayak Sengupta's portfolio.</desc>
+  <rect width="960" height="360" rx="18" fill="#FFFFFF"/>
+  <rect x="1" y="1" width="958" height="358" rx="17" stroke="#D8E3F0" stroke-width="2"/>
+  <text x="48" y="52" fill="#0F172A" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="23" font-weight="800">Portfolio System Map</text>
+  <text x="48" y="78" fill="#475569" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="14" font-weight="600">Domains feed one platform pattern: tools, approvals, traces, evals, replay, audit.</text>
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <rect x="48" y="118" width="178" height="72" rx="12" fill="#EFF6FF" stroke="#93C5FD"/>
+    <text x="72" y="150" fill="#1D4ED8" font-size="15" font-weight="800">Healthcare</text>
+    <text x="72" y="173" fill="#334155" font-size="12" font-weight="600">Prior auth workbench</text>
+    <rect x="48" y="210" width="178" height="72" rx="12" fill="#F0FDF4" stroke="#86EFAC"/>
+    <text x="72" y="242" fill="#15803D" font-size="15" font-weight="800">Finance</text>
+    <text x="72" y="265" fill="#334155" font-size="12" font-weight="600">Borrowing-base decisions</text>
+    <rect x="734" y="118" width="178" height="72" rx="12" fill="#FEFCE8" stroke="#FDE68A"/>
+    <text x="758" y="150" fill="#A16207" font-size="15" font-weight="800">Risk</text>
+    <text x="758" y="173" fill="#334155" font-size="12" font-weight="600">Scenario rehearsal</text>
+    <rect x="734" y="210" width="178" height="72" rx="12" fill="#ECFEFF" stroke="#67E8F9"/>
+    <text x="758" y="242" fill="#0E7490" font-size="15" font-weight="800">Developer Tooling</text>
+    <text x="758" y="265" fill="#334155" font-size="12" font-weight="600">Codex + Hermes workflows</text>
+  </g>
+  <g stroke="#94A3B8" stroke-width="2" stroke-linecap="round">
+    <path d="M226 154H335"/>
+    <path d="M226 246H335"/>
+    <path d="M625 154H734"/>
+    <path d="M625 246H734"/>
+  </g>
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <rect x="335" y="104" width="290" height="192" rx="16" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="480" y="136" text-anchor="middle" fill="#0F172A" font-size="17" font-weight="800">Governed Agent Runtime</text>
+    <g font-size="12" font-weight="700">
+      <rect x="365" y="160" width="82" height="32" rx="16" fill="#FFFFFF" stroke="#93C5FD"/>
+      <text x="406" y="181" text-anchor="middle" fill="#1D4ED8">LLMs</text>
+      <rect x="463" y="160" width="82" height="32" rx="16" fill="#FFFFFF" stroke="#86EFAC"/>
+      <text x="504" y="181" text-anchor="middle" fill="#15803D">Tools</text>
+      <rect x="513" y="212" width="82" height="32" rx="16" fill="#FFFFFF" stroke="#FDE68A"/>
+      <text x="554" y="233" text-anchor="middle" fill="#A16207">Approvals</text>
+      <rect x="414" y="212" width="82" height="32" rx="16" fill="#FFFFFF" stroke="#67E8F9"/>
+      <text x="455" y="233" text-anchor="middle" fill="#0E7490">Evals</text>
+      <rect x="365" y="258" width="230" height="24" rx="12" fill="#FFFFFF" stroke="#CBD5E1"/>
+      <text x="480" y="275" text-anchor="middle" fill="#334155">traces - replay - audit artifacts</text>
+    </g>
+    <path d="M448 176H463M504 192V212M513 228H496M455 212V192" stroke="#64748B" stroke-width="2" stroke-linecap="round"/>
+  </g>
+  <g font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="700">
+    <rect x="85" y="314" width="164" height="26" rx="13" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="167" y="332" text-anchor="middle" fill="#334155">Open Prior Auth</text>
+    <rect x="277" y="314" width="126" height="26" rx="13" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="340" y="332" text-anchor="middle" fill="#334155">DecisionRisk</text>
+    <rect x="431" y="314" width="138" height="26" rx="13" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="500" y="332" text-anchor="middle" fill="#334155">CanopyLedger</text>
+    <rect x="597" y="314" width="168" height="26" rx="13" fill="#F8FAFC" stroke="#CBD5E1"/>
+    <text x="681" y="332" text-anchor="middle" fill="#334155">Artifact + Codex tooling</text>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+{
+  "hero": {
+    "eyebrow": "AI PRODUCT + PLATFORM ENGINEER",
+    "headline": "Governed Agentic Workflow Platforms",
+    "subhead": "LLMs + tools + approvals + evals + audit trails for enterprise decision systems.",
+    "tags": [
+      { "label": "Healthcare", "fill": "#EFF6FF", "stroke": "#93C5FD", "text": "#1D4ED8" },
+      { "label": "Finance", "fill": "#F0FDF4", "stroke": "#86EFAC", "text": "#15803D" },
+      { "label": "Risk", "fill": "#FEFCE8", "stroke": "#FDE68A", "text": "#A16207" },
+      { "label": "Agent Tooling", "fill": "#F8FAFC", "stroke": "#CBD5E1", "text": "#334155" },
+      { "label": "Evals", "fill": "#ECFEFF", "stroke": "#67E8F9", "text": "#0E7490" }
+    ],
+    "footer": "Production systems thinking: measurable behavior, deterministic paths, human control, reusable platform assets."
+  },
+  "systemMap": {
+    "title": "Portfolio System Map",
+    "subtitle": "Domains feed one platform pattern: tools, approvals, traces, evals, replay, audit.",
+    "domains": [
+      { "label": "Healthcare", "detail": "Prior auth workbench", "x": 48, "y": 118, "fill": "#EFF6FF", "stroke": "#93C5FD", "text": "#1D4ED8" },
+      { "label": "Finance", "detail": "Borrowing-base decisions", "x": 48, "y": 210, "fill": "#F0FDF4", "stroke": "#86EFAC", "text": "#15803D" },
+      { "label": "Risk", "detail": "Scenario rehearsal", "x": 734, "y": 118, "fill": "#FEFCE8", "stroke": "#FDE68A", "text": "#A16207" },
+      { "label": "Developer Tooling", "detail": "Codex + Hermes workflows", "x": 734, "y": 210, "fill": "#ECFEFF", "stroke": "#67E8F9", "text": "#0E7490" }
+    ],
+    "runtime": {
+      "title": "Governed Agent Runtime",
+      "primitives": ["LLMs", "Tools", "Approvals", "Evals"],
+      "base": "traces - replay - audit artifacts"
+    },
+    "projects": ["Open Prior Auth", "DecisionRisk", "CanopyLedger", "Artifact + Codex tooling"]
+  }
+}
