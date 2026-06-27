@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-06-27T07:27:03.472Z",
+  "generatedAt": "2026-06-27T07:31:40.986Z",
   "current": {
     "fromDate": "2026-05-29",
     "toDate": "2026-06-27",
-    "requests": 1172,
-    "antiPatternOccurrences": 10262
+    "requests": 1175,
+    "antiPatternOccurrences": 10283
   },
   "previous": {
     "fromDate": "2026-04-29",
@@ -15,7 +15,7 @@
   },
   "metrics": {
     "aiPracticeScore": 57,
-    "antiPatternRate": 875.6,
+    "antiPatternRate": 875.1,
     "antiPatternResolutionRate": 0,
     "contextHealthScore": 93,
     "contextQualityScore": 47,
@@ -30,15 +30,15 @@
       "lookupWorkspaceId": "ai-coach-profile-publisher",
       "contextHealthScore": 90,
       "contextManagementScore": 90,
-      "contextQualityScore": 55,
+      "contextQualityScore": 56,
       "agenticReadinessScore": 30,
       "instructionQualityScore": 87,
       "progressiveDisclosureScore": 75,
       "verdict": "limited",
-      "avgUtilization": 39.4,
+      "avgUtilization": 39.8,
       "peakUtilization": 99.6,
       "compactions": 0,
-      "requestsWithTokens": 75,
+      "requestsWithTokens": 77,
       "configFiles": 8,
       "hasInstructions": true,
       "hasPrompts": false,
