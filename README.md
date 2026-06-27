@@ -1,15 +1,15 @@
 <!--
   Profile README for github.com/vinzlercodes
-  Focus: AI-native product/platform engineering, LLM systems, applied ML, and analytics products.
+  Focus: AI-native product/platform engineering, agentic workflows, LLM systems, and governed enterprise decision systems.
 -->
 
 <div align="center">
 
 # Hi, I'm Vinayak Sengupta
 
-### AI-Native Product & Platform Engineer | LLM Systems | Data Science
+### AI Product & Platform Engineer | Agentic Workflows | LLM Systems | Retrieval, Fine-Tuning & Evals
 
-I build production AI systems that turn model capability into usable enterprise workflows: agent orchestration, fine-tuning, retrieval evaluation, explainability, analytics products, and the platform plumbing needed to keep all of it observable.
+I build governed agentic workflow platforms where LLMs, tools, human approvals, evals, and audit trails turn AI capability into usable enterprise products across healthcare, finance, risk, and developer automation.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Vinayak%20Sengupta-blue?logo=linkedin)](https://www.linkedin.com/in/vinayak-sengupta)
 [![Medium](https://img.shields.io/badge/Medium-@vinayak.sengupta-12100E?logo=medium)](https://medium.com/@vinayak.sengupta)
@@ -25,11 +25,13 @@ I build production AI systems that turn model capability into usable enterprise 
 
 | Area | Current focus |
 | --- | --- |
-| Agent platforms | Multi-agent coordination, deterministic tool execution, human-in-the-loop confirmations, tool-call graphs, and enterprise workflow automation. |
+| Agent platforms | Multi-agent coordination, deterministic tool execution, human-in-the-loop confirmations, approval-gated writes, tool-call graphs, and enterprise workflow automation. |
+| Domain AI products | Healthcare prior authorization, evidence-adjusted finance decisioning, risk simulation, document intelligence, and workflow copilots with clear non-production and safety boundaries. |
 | LLM operations | SFT, DPO, PPO, QLoRA, Axolotl, vLLM, checkpoint recovery, model serving, and failure diagnostics for production AI workflows. |
-| Retrieval and evaluation | RAG/GraphRAG over long-form and graph-structured documents, ranking quality, BM25, MMR, reranking, and nDCG@k measurement. |
+| Retrieval and evaluation | RAG/GraphRAG over long-form and graph-structured documents, ranking quality, BM25, MMR, reranking, deterministic evals, replay artifacts, and nDCG@k measurement. |
 | Explainability and analytics | Model-agnostic attribution, PDP workflows, KPI design, DuckDB/Arrow pipelines, SHAP alignment, and stakeholder-facing analytics products. |
-| Platform engineering | FastAPI services, Kubernetes reconciliation loops, productized launch flows, health checks, observability, and reusable enterprise assets. |
+| Open-source agent tooling | Codex/Hermes remote control, AI engineering telemetry, artifact-format evaluation, reusable CLI workflows, and privacy-safe publication pipelines. |
+| Platform engineering | FastAPI services, TypeScript/Next.js apps, Kubernetes reconciliation loops, productized launch flows, health checks, observability, and reusable enterprise assets. |
 
 I care about systems that are measurable, debuggable, and useful to the people who have to run them after the demo is over.
 
@@ -56,31 +58,38 @@ I care about systems that are measurable, debuggable, and useful to the people w
 
 ## Current Product Builds
 
-| Build | What it explores |
-| --- | --- |
-| Open Prior Auth Workbench | A FHIR-first healthcare AI workbench for discovering coverage requirements, prefilling documentation questionnaires, assembling submission-ready packets, and tracking case status through human review. |
-| Multi-agent commerce systems | A Swiggy-style production multi-agent system spanning food, delivery, and dine-out domains. |
-| LLM workflow tools | Obsidian/n8n LLM-wiki writing agents, MiroFish-style LLM councils for risk decisioning, GEN-1 robotics concepts, and Codex agentic OS experiments. |
+| Build                                                                                  | Domain | What it explores |
+|----------------------------------------------------------------------------------------| --- | --- |
+| [Open Prior Auth Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench) | Healthcare | FHIR-first prior authorization workbench for requirement discovery, deterministic questionnaire prefill, evidence intake, packet assembly, payer-status loops, human review, audit trails, and agent evals. |
+| [DecisionRisk](https://github.com/vinzlercodes/DecisionRisk)                           | Risk | MiroFish-first decision rehearsal engine with evidence graphs, scenario ensembles, adversarial council review, transparent risk metrics, provenance validation, replay artifacts, and auditable Risk Dockets. |
+| CanopyLedger (Coming Soon)                                                             | Finance | Private evidence-adjusted borrowing-base decisioning build for coffee trade finance, with immutable facility snapshots, reproducible collateral valuation, governed decisions, idempotent APIs, and integrity checks. |
+| [codex-telegram-remote](https://github.com/vinzlercodes/codex-telegram-remote)         | Agent tooling | Hermes-native Telegram control for Codex threads, workspace/status checks, remote steering, approval routing, and completion summaries through local app-server boundaries. |
+| [artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval)           | Agent evals | API-key-free benchmark comparing Markdown, HTML, JSON-rendered, and notebook artifacts across cost, accessibility, security, reviewability, and reader-task coverage. |
 
 ## Technical Toolkit
 
 **Agentic AI & LLM systems**
-`multi-agent orchestration` · `tool registries` · `AgentOps` · `human-in-the-loop flows` · `RAG` · `GraphRAG` · `SFT` · `DPO` · `PPO` · `QLoRA` · `Axolotl` · `vLLM` · `LangChain` · `LlamaIndex` · `NVIDIA NeMo Toolkit` · `NeMo Guardrails` · `OpenAI` · `Vertex AI`
+`multi-agent orchestration` · `tool registries` · `approval gates` · `runtime traces` · `deterministic evals` · `AgentOps` · `human-in-the-loop flows` · `RAG` · `GraphRAG` · `SFT` · `DPO` · `PPO` · `QLoRA` · `Axolotl` · `vLLM` · `LangChain` · `LlamaIndex` · `NVIDIA NeMo Toolkit` · `NeMo Guardrails` · `OpenAI` · `Vertex AI`
 
 **Platforms, data & backend**
-`Python` · `SQL` · `Cypher` · `FastAPI` · `Flask` · `PySpark` · `DuckDB` · `PostgreSQL` · `MongoDB` · `Neo4j` · `Chroma` · `AWS` · `GCP` · `Docker` · `Kubernetes` · `GitHub Actions` · `OpenTelemetry` · `Langfuse`
+`Python` · `TypeScript` · `SQL` · `Cypher` · `FastAPI` · `Flask` · `Next.js` · `PySpark` · `DuckDB` · `PostgreSQL` · `SQLite` · `MongoDB` · `Neo4j` · `Chroma` · `AWS` · `GCP` · `Docker` · `Kubernetes` · `GitHub Actions` · `OpenTelemetry` · `Langfuse`
 
 **ML, product & analytics**
 `PyTorch` · `TensorFlow` · `Keras` · `scikit-learn` · `LightGBM` · `SHAP` · `ONNX` · `PDP` · `KPI design` · `stakeholder discovery` · `PRDs` · `MVP roadmaps` · `success metrics`
 
-## Selected Public Projects
+## Selected Public Systems
 
 | Project | Signal |
 | --- | --- |
-| [Gaming-Industry-Analysis](https://github.com/vinzlercodes/Gaming-Industry-Analysis) | Data analysis of a 40-year gaming dataset, including genre/platform trends, sales patterns, publisher contributions, and a companion long-form article. |
-| [Prediction-of-Customer-Churn](https://github.com/vinzlercodes/Prediction-of-Customer-Churn) | ANN-based churn prediction for banking customers with ROC, confusion matrix, pie chart, KDE, and counter-plot analysis. |
-| [Disaster-Response-Pipeline-Web-App](https://github.com/vinzlercodes/Disaster-Response-Pipeline-Web-App) | End-to-end ETL, NLP, and ML pipeline powering a web app for classifying disaster-response messages. |
-| [Recommendation-of-Refactoring-Techniques-to-address-Self-Admitted-Technical-Debt](https://github.com/vinzlercodes/Recommendation-of-Refactoring-Techniques-to-address-Self-Admitted-Technical-Debt) | SATD detection and refactoring recommendation work from my RIT capstone. |
+| [Open Prior Auth Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench) | Healthcare agent workflow substrate with ToolNet-style tools, approvals, traces, deterministic evals, synthetic data, and standards-shaped local gateway routes. |
+| [DecisionRisk](https://github.com/vinzlercodes/DecisionRisk) | Risk simulation platform for consequential decision rehearsal, scenario replay, grounded rationale, dissent tracking, safety gates, and reviewable regression reports. |
+| [codex-telegram-remote](https://github.com/vinzlercodes/codex-telegram-remote) | Open-source agentic developer tooling for controlling Codex from Telegram through Hermes with local runtime state and approval boundaries. |
+| [artifact-format-eval](https://github.com/vinzlercodes/artifact-format-eval) | Evaluation harness for agent-generated artifacts, measuring accessibility, security, reviewability, mutation impact, and reader-task coverage without API keys. |
+| [ai-coach-profile-publisher](https://github.com/vinzlercodes/ai-coach-profile-publisher) | Privacy-safe publisher for AI Engineer Coach metrics, sanitized JSON dispatch, GitHub Actions rendering, and public SVG profile cards. |
+
+## Foundations
+
+Earlier work spans [gaming-industry analytics](https://github.com/vinzlercodes/Gaming-Industry-Analysis), [customer churn prediction](https://github.com/vinzlercodes/Prediction-of-Customer-Churn), [recommendation systems](https://github.com/vinzlercodes/Recommendation-Engine-with-IBM), [disaster-response NLP pipelines](https://github.com/vinzlercodes/Disaster-Response-Pipeline-Web-App), SATD refactoring recommendation, hierarchical-attention document classification, and breast histopathology image classification research. That foundation now feeds more product-shaped agent, retrieval, eval, and decision-workflow systems.
 
 ## Writing & Research
 
@@ -92,6 +101,8 @@ I care about systems that are measurable, debuggable, and useful to the people w
 <!-- BLOG-POST-LIST:END -->
 
 <sub>Auto-updated from my Medium RSS feed.</sub>
+
+I write technical explainers that connect system design to reader-visible tradeoffs: retrieval quality, long-document summarization, RAG failure modes, clustering, applied analytics, and how AI outputs should be evaluated as artifacts rather than demos.
 
 Other work: PPO post-training for Llama text-to-SQL, SATD detection and refactoring recommendation, and histopathology carcinoma classification using multi-level spatial fusion.
 
@@ -140,8 +151,8 @@ _Public card only. Raw prompts, private code, workspace names, file paths, model
 | Signal | What to look for |
 | --- | --- |
 | Languages | A practical mix of data, backend, notebooks, and web-facing work rather than a single narrow stack. |
-| Repositories | Public projects skew older but show the arc from analytics and ML pipelines toward AI-native systems. |
-| Writing | Medium activity makes the technical reasoning visible, especially around retrieval, summarization, and applied analytics. |
+| Repositories | Recent public systems show a shift from notebooks and ML pipelines toward agentic workflow products, eval harnesses, and developer tooling. |
+| Writing | Medium activity makes the technical reasoning visible, especially around retrieval, summarization, RAG evaluation, and applied analytics. |
 | Activity feed | Recent public GitHub events are generated below so profile movement is visible between larger project updates. |
 
 ### Recent GitHub Activity
