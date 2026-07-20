@@ -168,8 +168,8 @@ _Public card only. Raw prompts, private code, workspace names, file paths, model
 ### Recent GitHub Activity
 
 <!--START_SECTION:activity-->
-1. 🎉 Merged PR [#83](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/83) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
-2. 💪 Opened PR [#83](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/83) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
+1. 🎉 Merged PR [#53](https://github.com/vinzlercodes/CanopyLedger/pull/53) in [vinzlercodes/CanopyLedger](https://github.com/vinzlercodes/CanopyLedger)
+2. 💪 Opened PR [#53](https://github.com/vinzlercodes/CanopyLedger/pull/53) in [vinzlercodes/CanopyLedger](https://github.com/vinzlercodes/CanopyLedger)
 3. 🎉 Merged PR [#82](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/82) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
 4. 💪 Opened PR [#82](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/82) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
 5. 🎉 Merged PR [#81](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench/pull/81) in [vinzlercodes/Open_Prior_Auth_Workbench](https://github.com/vinzlercodes/Open_Prior_Auth_Workbench)
